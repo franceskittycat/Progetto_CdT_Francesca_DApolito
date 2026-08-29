@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+        		<title>Un preludio di Faust</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+                <respStmt>
+                    <resp>Progetto d'esame a cura di</resp>
+                    <name ref="#FD">Francesca D'Apolito</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+                <idno type="filename">Farfalla_1879_V_14_Unpreludiodifaust.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Un preludio di Faust</title>
+                        <author ref="coverlessListPerson.xml#faustAutore">Faust</author> 
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <publisher ref="coverlessListOrganization.xml#casaEditriceBignami">Casa Editrice C. Bignami e C.</publisher>
+                            <pubPlace ref="coverlessListPlace.xml#MI">Milano</pubPlace>
+                            <date when="1879">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">X</biblScope>
+                        <biblScope unit="issue">14</biblScope>
+                        <biblScope unit="page">157-159</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Codifica dell'articolo "Un preludio di Faust" tratto dalla rivista "La Farfalla". La codifica è stata realizzata per il progetto d'esame di "Codifica di testi", basata sul modello del progetto COVerLeSS.</p>
+            </projectDesc>
+            <editorialDecl>
+                <segmentation>
+                    <p>Si è scelto di codificare il testo mantenendo la corrispondenza esatta delle righe dell'edizione a stampa attraverso il tag <tag>lb</tag>.</p>
+                </segmentation>
+                <hyphenation>
+                    <p>Si è scelto di mantenere la sillabazione delle parole per il ritorno a capo. I ritorni a capo che spezzano una parola sono stati marcati con l'attributo break="no" (per indicare l'unità logica della parola) e rend="-" (per documentare la presenza del trattino tipografico a stampa).</p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è scelto di mantenere la spaziatura originale.</p>
+                </normalization>
+                <interpretation>
+                    <p>Si è scelto di creare una tassonomia in <tag>textClass</tag> con i principali temi
+                    del Verismo riconosciuti nei testi codificati. All'interno del testo, sono state
+                    marcate parole e frasi esemplificative di questi temi, ricondotte alle categorie
+                    corrispondenti attraverso l'uso del tag <tag>ref</tag>.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="testo_in_prosa">Articolo in rivista</term>
+                </keywords>
+                <keywords scheme="#themesTaxonomy">
+                    <term type="themes" ref="coverlessTassonomia.xml#conflittoSociale">Conflitto sociale</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#questioneMatrimoniale">Questione matrimoniale</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <placeName type="real" ref="coverlessListPlace.xml#MI">Milano</placeName>
+                <date when="1879-10-05">5 ottobre 1879</date>
+            </creation>
+            <abstract>
+                <p>Il testo, intitolato "Un preludio di Faust" e firmato "Faust", illustra la linea editoriali e gli intenti della rivista "La Farfalla" in vista dell'anno nuovo. L'autore presenta i toni e i temi che saranno affrontati la rivista attraverso la metafora di un'esecuzione orchestrale, facendo riferimento a strumenti musicali. Ad esempio presenta il tema delle questioni matrimoniali e del divorzio attraverso i corni; il tema della sincerità del pensiero e del sentimento attraverso clarinetti e oboè; il tono sarcastico attraverso il flauto; ed altro ancora. Il testo presenta uno stile autoironico, sarcastico e letterario, presentando i tipici temi di evoluzione sociale e denuncia tipici dell'epoca.</p>
+            </abstract>
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+                <language ident="fr">Francese</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change status="draft" when="2026-08-04" resp="#FD">First draft 4 agosto 2026</change>
+            <change status="draft" when="2026-08-12" resp="#FD">Second draft 12 agosto 2026</change>
+            <change status="draft" when="2026-08-28" resp="#FD">Terzo draft 28 agosto 2026</change>
+            <change status="draft" when="2026-08-29" resp="#FD">Final draft 29 agosto 2026</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="pag_157" start="#Farfalla_1879_V_14_157">
+            <graphic url='Farfalla_1879_V_14_157.jpg' width='3388.66666px' height='5088.66666px' />
+            <zone xml:id="z_col_2-p.157" start="#col_2-p.157" ulx="1641" uly="3558" lrx="2983" lry="4802" />
+            <zone xml:id="z_head" start="#intestazione" ulx="1698" uly="3593" lrx="2916" lry="3763" />
+            <zone xml:id="z_d_1" start="#d_1" ulx="2174" uly="3766" lrx="2421" lry="3798" />
+            <zone xml:id="z_s_1_part1" start="#s_1" ulx="1648" uly="3813" lrx="2954" lry="4781" />
+        </surface>
+        <surface xml:id="pag_158" start="#Farfalla_1879_V_14_158">
+            <graphic url='Farfalla_1879_V_14_158.jpg' width='3323.66666px' height='5101.66666px' />
+            <zone xml:id="z_col_1-p.158" start="#col_1-p.158" ulx="519" uly="383" lrx="1820" lry="4648" />
+            <zone xml:id="z_col_2-p.158" start="#col_2-p.158" ulx="1851" uly="386" lrx="3201" lry="4670" />
+            <zone xml:id="z_s_1_part2" start="#s_2" ulx="528" uly="406" lrx="1813" lry="697" />
+            <zone xml:id="z_d_2" start="#d_2" ulx="1041" uly="781" lrx="1296" lry="1186" />
+            <zone xml:id="z_s_2" start="#s_2" ulx="521" uly="1249" lrx="1818" lry="4013" />
+            <zone xml:id="z_d_3" start="#d_3" ulx="798" uly="4051" lrx="1641" lry="4440" />
+            <zone xml:id="z_s_3_part1" start="#s_3" ulx="603" uly="4506" lrx="1818" lry="4639" />
+            <zone xml:id="z_s_3_part2" start="#s_3" ulx="1856" uly="418" lrx="3189" lry="3062" />
+            <zone xml:id="z_d_4" start="#d_4" ulx="2239" uly="3141" lrx="2826" lry="3667" />
+            <zone xml:id="z_s_4_part1" start="#s_4" ulx="1871" uly="3763" lrx="3181" lry="4639" />
+        </surface>
+        <surface xml:id="pag_159" start="#Farfalla_1879_V_14_159">
+            <graphic url='Farfalla_1879_V_14_159.jpg' width='3385.66666px' height='5093.66666px' />
+            <zone xml:id="z_col_1-p.159" start="#col_1-p.159" ulx="400" uly="446" lrx="1670" lry="4685" />
+            <zone xml:id="z_s_4part2" start="#s_4" ulx="409" uly="471" lrx="1677" lry="616" />
+            <zone xml:id="z_d_5" start="#d_5" ulx="835" uly="664" lrx="1254" lry="1163" />
+            <zone xml:id="z_s_5" start="#s_5" ulx="409" uly="1210" lrx="1667" lry="2097" />
+            <zone xml:id="z_d_6" start="#d_6" ulx="715" uly="2144" lrx="1454" lry="2581" />
+            <zone xml:id="z_s_6" start="#s_6" ulx="407" uly="2660" lrx="1664" lry="3937" />
+            <zone xml:id="z_closer" start="#closer" ulx="1399" uly="3953" lrx="1585" lry="4027" />
+        </surface>
+    </facsimile>
+    <text type="testo_in_prosa">
+        <body>
+            <pb n="1" xml:id="Farfalla_1879_V_14_157" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_14_157.png/full/max/0/default.jpg"/>
+            <cb n="1" xml:id="col_2-p.157" facs="#z_col_2-p.157" />
+            <div type="intestazione" xml:id="intestazione" facs="#z_head">
+                <head type="main" rend="bold uppercase">UN PRELUDIO DI FAUST</head>
+            </div>
+            <metamark xml:id="d_1" function="sectionDivider" facs="#z_d_1">
+                <figure>
+                    <figDesc>Linea al cui centro ci sono tre pallini, dei quali il centrale è più largo rispetto agli altri.</figDesc>
+                </figure>
+            </metamark> 
+            <div type="text">
+                <div type="section" n="1" xml:id="s_1" facs="#z_s_1_part1 #z_s_1_part2">
+                    <p xml:id="p_1" rend="first-line-indented"><lb n="1"/>Il <name type="epiteth" subtype="real" ref="coverlessListPerson.xml#principale" rend="italic">Principale</name> m'ha detto:</p>
+                    <p xml:id="p_2" rend="first-line-indented"><lb n="2"/><q>- <persName type="real" ref="coverlessListPerson.xml#faustAutore" rend="italic">Faust</persName>, scriverai la sinfonia del primo numero
+                    <lb n="3"/>del nuovo anno milanese, che imprende oggi la <lb n="4"/><orgName type="journal" ref="coverlessListOrganization.xml#lafarfalla" rend="italic">Farfalla</orgName>.</q></p>
+                    <p xml:id="p_3" rend="first-line-indented"><lb n="5"/><q>- Sì, <rs type="person" subtype="real" ref="coverlessListPerson.xml#principale">padrone</rs>,</q> - risposi <rs type="person" subtype="real" ref="coverlessListPerson.xml#faustAutore">io</rs>. E mi son messo
+                    <lb n="6"/>al pianoforte. Ma sì! Non era il quarto d'ora buono:
+                    <lb n="7"/>i tasti neri mi si confondevano coi tasti bianchi:
+                    <lb n="8"/>venivan fuori certe strappate da far arricciare le 
+                    <lb n="9"/>budella.... Non era il mio minuto eroico.... Ecco
+                    <lb n="10"/>perchè dal <hi rend="italic">fortissimo</hi> degli accordi raddoppiati sono,
+                    <lb n="11"/>mano mano, disceso al <hi rend="italic">pianissimo</hi> d'un' onda me<lb n="12" break="no" rend="-"/>lodica, glauca e serena come gli occhi dell'<persName type="unknown" ref="coverlessListPerson.xml#angioletta">Angio<lb n="13" break="no" rend="-"/>letta</persName> - la nuova fioraia - che da otto o dieci sere
+                    <lb n="14"/>passeggia in <placeName type="real" ref="coverlessListPlace.xml#Galleria_Vittorio_Emanuele">Galleria Vittorio Emanuele</placeName> le treccie
+                    <pb n="2" xml:id="Farfalla_1879_V_14_158" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_14_158.png/full/max/0/default.jpg"/>
+                    <cb n="2" xml:id="col_1-p.158" facs="#z_col_1-p.158"/>
+                    <lb n="15"/>bionde della sua testa da <persName type="real" ref="coverlessListPerson.xml#bartolomeEstebanMurillo">Murillo</persName> e le gale rosse
+                    <lb n="16"/>della sua vesticciuola di <foreign xml:lang="fr" rend="italic">calicot</foreign> scuro - onde il 
+                    <lb n="17"/>superbo compianto di <persName type="unknown" ref="coverlessListPerson.xml#teresa">Teresa</persName>, l'imperatrice di tutte <lb n="18"/>le sacerdotesse di <persName type="fictional" ref="coverlessListPerson.xml#flora">Flora</persName>....</p>
+                </div>
+                <metamark xml:id="d_2" function="sectionDivider" facs="#z_d_2">
+                    <figure>
+                        <figDesc>Un'illustrazione di capelli chiari raccolti in una coda con un fiocco.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="2" xml:id="s_2" facs="#z_s_2">
+                    <p xml:id="p_4" rend="first-line-indented"><lb n="19"/>Cominciano, sottovoce, i corni:</p>
+                    <p xml:id="p_5" rend="first-line-indented"><lb n="20"/>Essi descrivono la fine dell'anno <num value="5">V</num> della <orgName type="journal" ref="coverlessListOrganization.xml#lafarfalla" rend="italic">Farfalla</orgName> 
+                    ed il principio del <num value="6">VI</num>.</p>
+                    <p xml:id="p_6" rend="first-line-indented"><lb n="21"/>Il corno, come sapete, è uno strumento diffici<lb n="22" break="no" rend="-"/>lissimo; ecco forse il perchè lo suonano in due:
+                    <lb n="23"/>marito e moglie.... cioè - in due coppie, e in due 
+                    <lb n="24"/>esecutori per coppia.</p>
+                    <p xml:id="p_7" rend="first-line-indented"><lb n="25"/>Questi corni - del mio preludio - vi avvisano
+                    <lb n="26"/>che, come pel passato, continueremo anche per l'av-
+                    <lb n="27"/>venire ad occuparci in forma amena delle questioni
+                    <lb n="28"/>ardenti che oggi abbruciano la società: di quelle
+                    <lb n="29"/>specialmente che concernono il <term ref="coverlessTassonomia.xml#questioneMatrimoniale">matrimonio</term>, il <term ref="coverlessTassonomia.xml#questioneMatrimoniale">di<lb n="30" break="no" rend="-"/>vorzio</term>, le <term ref="coverlessTassonomia.xml#questioneMatrimoniale">nozze forzate</term>, i <term ref="coverlessTassonomia.xml#questioneMatrimoniale">connubii sbagliati</term>, le <term ref="coverlessTassonomia.xml#questioneMatrimoniale">de<lb n="31" break="no" rend="-"/>bolezze adultere</term>, e forse più in là....</p>
+                    <p xml:id="p_8" rend="first-line-indented"><lb n="32"/>I clarinetti e gli oboè - raffiguranti per appros<lb n="33" break="no" rend="-"/>simazione la voce umana - vi dicono che come si
+                    <lb n="34"/>parla scriviamo: che come si gioisce, si ride, si sin<lb n="35" break="no" rend="-"/>ghiozza, si piange: gioiremo, rideremo, singhioz<lb n="36" break="no" rend="-"/>zeremo, piangeremo anche noi. Il che val quanto
+                    <lb n="37"/>dire che seguiteremo ad essere il <term type="verbum" subtype="vero_verita">riflesso sincero e 
+                    <lb n="38"/>genuino</term> del pensiero e del <term type="verbum" subtype="studio_osservazione">sentimento</term>.</p>
+                    <p xml:id="p_9" rend="first-line-indented"><lb n="39"/>Fagotti, oficleidi, trombe e tromboni, vi tromb-
+                    <lb n="40"/>betteranno o squilleranno la speranza del dì della
+                    <lb n="41"/><term ref="coverlessTassonomia.xml#conflittoSociale">risurrezione sociale</term>: quel dì, al cui sopravvenire noi
+                    <lb n="42"/>tutti concorriamo in misura delle forze nostre, ma 
+                    <lb n="43"/>entusiasticamente: comechè siamo convinti che è
+                    <lb n="44"/>dalla soluzione del <term ref="coverlessTassonomia.xml#conflittoSociale">problema sociale</term> che i quattro
+                    <lb n="45"/>quinti dell'umanità saranno elevati alla loro dignità
+                    <lb n="46"/>ed ai loro diritti.</p>
+                    <p xml:id="p_10" rend="first-line-indented"><lb n="47"/>Ecco un mesto <hi rend="italic">a solo</hi> di flauto. Esso fischia la
+                    <lb n="48"/>canzone del sarcasmo. Poche battute che fanno ca-
+                    <lb n="49"/>polino qua è là, ma che servono per dare l'allerta
+                    <lb n="50"/>agli ipocriti: e ricordar loro che quanto a noi, ab<lb n="51" break="no" rend="-"/>biam sempre gli occhi aperti, e dove non arriviamo
+                    <lb n="52"/>colla potenza del sillogismo, arriviamo colla punta
+                    <lb n="53"/>accuminata del sarcasmo.</p>
+                    <p xml:id="p_11" rend="first-line-indented"><lb n="54"/>Sopprimiamo l'entrata del corno inglese: sa<lb n="55" break="no" rend="-"/>rebbe un fare gravissimo torto ai corni italiani, poco
+                    <lb n="56"/>sopra nominati. A simili amorazzi per le cose estere
+                    <lb n="57"/>non ci abbassiamo; siamo incoraggitori dell'indu<lb n="58" break="no" rend="-"/>stria nazionale, noi!</p>
+                </div>
+                <metamark xml:id="d_3" function="sectionDivider" facs="#z_d_3">
+                    <figure>
+                        <figDesc>Un'illustrazione di una figura senza testa e con lunghi arti che corre.</figDesc>
+                    </figure>
+                </metamark> 
+                <div type="section" n="3" xml:id="s_3" facs="#z_s_3_part1 #z_s_3_part2">
+                    <p xml:id="p_12" rend="first-line-indented"><lb n="59"/>Quartetto d'arco.</p>
+                    <p xml:id="p_13" rend="first-line-indented"><lb n="60"/>Questo passo caratteristico dei violini significa
+                    <cb n="3" xml:id="col_2-p.158" facs="#z_col_2-p.158"/>
+                    <lb n="61"/>l'interminato cinguettio di tutte le creature femmine
+                    <lb n="62"/>che coprono la superficie della terra.</p>
+                    <p xml:id="p_14" rend="first-line-indented"><lb n="63"/>Perchè negarlo?...</p>
+                    <p xml:id="p_15" rend="first-line-indented"><lb n="64"/>La donna per noi rappresenta tutto o niente.
+                    <lb n="65"/>Fermiamoci quindi sopra di lei - come diceva di-
+                    <lb n="66"/>scorrendo della <q>« moglie del fallito »</q> il mio vec<lb n="67" break="no" rend="-"/>chio professore di diritto commerciale all'Univer<lb n="68" break="no" rend="-"/>sità: e continua<unclear reason="faded" resp="#FD" cert="high">va</unclear>: - studiamola insieme: presto 
+                    <lb n="69"/>ne vedremo gli effetti.</p>
+                    <p xml:id="p_16" rend="first-line-indented"><lb n="70"/>O essa è tutto, e noi ne canteremo le glorie. O
+                    <lb n="71"/>è niente, e noi vivificheremo quel marmo e lo fa<lb n="72" break="no" rend="-"/>remo sentire. Sappiatelo dunque, lettrici amiche:
+                    <lb n="73"/><persName type="fictional" ref="coverlessListPerson.xml#pigmalione">Pigmalione</persName> e <persName type="fictional" ref="coverlessListPerson.xml#galatea">Galatea</persName> non sono solamente una stolta parola.</p>
+                    <p xml:id="p_17" rend="first-line-indented"><lb n="74"/>Alle viole e ai violoncelli il gemito dell'amore
+                    <lb n="75"/>- dell'amore che si dà, che langue, che muore, e
+                    <lb n="76"/>che, morendo, risuscita. Viole e violoncelli vi dicono
+                    <lb n="77"/>gli appassionati duetti su cui ci arresteremo: i fre<lb n="78" break="no" rend="-"/>mebondi amplessi che veleremo, i sospiri, gli am<lb n="79" break="no" rend="-"/>plessi, gli abbandoni, per cui passeremo, noi, vecchi
+                    <lb n="80"/>soldati di ciò che è bello perchè è <term type="verbum" subtype="vero_verita">vero</term>, contro ciò
+                    <lb n="81"/>che è stupido perchè è falso.</p>
+                    <p xml:id="p_18" rend="first-line-indented"><lb n="82"/>Non ispaventatevi del monotono <hi rend="italic">fron fron</hi> dei
+                    <lb n="83"/>contrabbassi. Essi voglion dirvi il perpetuo malcon<lb n="84" break="no" rend="-"/>tento degli spostati - i loro rauchi anatermi, il basso
+                    <lb n="85"/>continuo delle loro lamentele.</p>
+                    <p xml:id="p_19" rend="first-line-indented"><lb n="86"/>Direte:</p>
+                    <p xml:id="p_20" rend="first-line-indented"><lb n="87"/><q>- A che prò, sia pure di tanto in tanto, per<lb n="88" break="no" rend="-"/>dersi in simili malinconie?...</q></p>
+                    <p xml:id="p_21" rend="first-line-indented"><lb n="89"/>Rispondiamo:</p>
+                    <p xml:id="p_22" rend="first-line-indented"><lb n="90"/><q>- O popolo sovrano, che pagando ci leggi,
+                    <lb n="91"/>tuoi due soldi non bastano ad obliterare la strana
+                    <lb n="92"/>anima del <term type="forma_letteraria" subtype="ismi">boemo</term>. Egli che per darti nel gusto ride
+                    <lb n="93"/>trecentosessanta giorni dell'anno, ha ben diritto di 
+                    <lb n="94"/>stare imbronciato per gli altri cinque, se così gli ta<lb n="95" break="no" rend="-"/>llenta, e suonare da mattina a sera il contrabbasso
+                    <lb n="96"/>della mestizia...</q></p>
+                    <p xml:id="p_23" rend="first-line-indented"><lb n="97"/>Popolo sovrano! un po' di condiscendenza, corpo
+                    <lb n="98"/>e sangue di tutti i <persName type="real" ref="coverlessListPerson.xml#giovanniBottesini">Bottesini</persName> dei due emisferi....</p>
+                </div>
+                <metamark xml:id="d_4" function="sectionDivider" facs="#z_d_4">
+                    <figure>
+                        <figDesc>Un'illustrazione di un uomo vestito in abito elegante che tiene la mano sinistra dietro la schiena.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="4" xml:id="s_4" facs="#z_s_4_part1 z_s_4_part2">
+                    <p xml:id="p_24" rend="first-line-indented"><lb n="99"/>E non fate, no, per amor di Dio, il muso - se
+                    <lb n="100"/>di quando in quando udite qualche frase dell'arpa.
+                    <lb n="101"/>Noi non siamo tanto nemici dell'<term type="forma_letteraria" subtype="ismi">ideale</term> - da pro-
+                    <lb n="102"/>scriverlo assolutamente, come una giovenca affetta
+                    <lb n="103"/>da polmonea. Tutt'altro: l'<term type="forma_letteraria" subtype="ismi">ideale</term> sia rivestito d'a<lb n="104" break="no" rend="-"/>biti eleganti e moderni - si presenti bene, non
+                    <lb n="105"/>faccia inchini o smorfie di convenzione - abbia
+                    <lb n="106"/>soprattutto dello spirito, del brio e della <foreign xml:lang="fr" rend="italic">verve</foreign> -
+                    <lb n="107"/>e chissà che di una in altra volta non ne ammi<lb n="108" break="no" rend="-"/>nistriamo noi pure, in piccolissima dose, al pubblico
+                    <lb n="109"/>nostro. Dati in quantità impercettibili, anche i veleni 
+                    <lb n="110"/>più spietati si mutano in medicine onnipotenti....</p>
+                    <p xml:id="p_25" rend="first-line-indented"><lb n="111"/>Un po' d'arpeggio quindi non sarà - ad ogni 
+                    <pb n="3" xml:id="Farfalla_1879_V_14_159" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_14_159.png/full/max/0/default.jpg"/>
+                    <cb n="4" xml:id="col_1-p.159" facs="#z_col_1-p.159"/>
+                    <lb n="112"/>morte di vescovo - quello che farà andare a ro<lb n="113" break="no" rend="-"/>toli il nostro pezzo concertato....</p>
+                </div>
+                <metamark xml:id="d_5" function="sectionDivider" facs="#z_d_5">
+                    <figure>
+                        <figDesc>Un'illustrazione raffigurante due individui: uno è seduto e l'altro l'abbraccia, tenendo una mano sul patto e un braccio avvolto al suo collo.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="5" xml:id="s_5" facs="#z_s_5">
+                    <p xml:id="p_26" rend="first-line-indented"><lb n="114"/>A suo tempo c'è il rullo dei timpani. - E' per
+                    <lb n="115"/>risvegliare coloro che alla vecchia musica si fossero
+                    <lb n="116"/>per caso addormentati. C'è il suo colpo di gran
+                    <lb n="117"/>cassa e di piatti per far sussultare - con qual<lb n="118" break="no" rend="-"/>che grande sorpresa - il pubblico farfallino da cima
+                    <lb n="119"/>a fondo. C'è infine il tintinnio gradevole e - si-
+                    <lb n="120"/>multaneamente stucchevole - del triangolo. Fatica
+                    <lb n="121"/>particolare di <persName type="real" ref="coverlessListPerson.xml#farfallino" rend="italic">Farfallino</persName>, il quale con questo mezzo
+                    <lb n="122"/>soave e forte rammenta agli egregi abbonati che
+                    <lb n="123"/>la vita è breve e sei mesi lo sono ancor più: e che
+                    <lb n="124"/>quando arrivano le scadenze bisogna rinnovare in
+                    <lb n="125"/>tempo per evitare il solito ritardo nella solita spe<lb n="126" break="no" rend="-"/>dizione del solito giornale.....</p>
+                </div>
+                <metamark xml:id="d_6" function="sectionDivider" facs="#z_d_6">
+                    <figure>
+                        <figDesc>Un'illustrazione di uno strumento musicale </figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="6" xml:id="s_6" facs="#z_s_6">
+                    <p xml:id="p_27" rend="first-line-indented"><lb n="127"/>Questo il Preludio di <persName type="real" ref="coverlessListPerson.xml#faustAutore" rend="italic">Faust</persName>, che non ha pur
+                    <lb n="128"/>troppo nulla di comune col celebre <title ref="coverlessListWork.xml#preludioBach">Preludio</title> di <persName type="real" ref="coverlessListPerson.xml#johannSebastianBach">Bach</persName>
+                    <lb n="129"/>- così audacemente usurpato da <persName type="real" ref="coverlessListPerson.xml#charlesGounod">Gounod</persName>, che vi
+                    <lb n="130"/>delineò sopra la sua divina <title ref="coverlessListWork.xml#aveMariaGounod" rend="italic">Ave Maria</title>.</p>
+                    <p xml:id="p_28" rend="first-line-indented"><lb n="131"/>Ma <persName type="real" ref="coverlessListPerson.xml#faustAutore" rend="italic">Faust</persName>, più modesto, non vuole spingersi fino
+                    <lb n="132"/>nei sommi cieli, e ne ha di catti, che l'esecuzione
+                    <lb n="133"/>del suo preludio non sia troncata a metà da i fischi 
+                    <lb n="134"/>del rispettabile <distinct type="gergo" rend="italic">orbetto</distinct> - il quale, del resto, fischiò
+                    <lb n="135"/>un bel dì anche il colossale <title ref="coverlessListWork.xml#barbiereDiSiviglia" rend="italic">Barbiere</title>.</p>
+                    <p xml:id="p_29" rend="first-line-indented"><lb n="136"/>E adesso - se permettete - monto sul leggìo,
+                    <lb n="137"/>apro lo spartito e dò di piglio alla bacchetta.</p>
+                    <p xml:id="p_30" rend="first-line-indented"><lb n="138"/>Badino i signori professori: siamo alla scadenza
+                    <lb n="139"/>d'<date when="1879-10">ottobre 1879</date> e perciò si attacca sul terzo quarto 
+                    <lb n="140"/>della quinta battuta. Sottovoce quell'oboe.... Insen-
+                    <lb n="141"/>sibile quel clarino.... Sssttt quella tromba.... Pizzi<lb n="142" break="no" rend="-"/>cati quei violini.... Pizzicati, dico!.... Piano.... ancor
+                    <lb n="143"/>più piano.... pianissimo.... Così.... assai bene....</p>
+                    <p xml:id="p_31" rend="first-line-indented"><lb n="144"/>E adesso che non si sente più nulla, l'effetto
+                    <lb n="145"/>della mia musica è veramente sublime.</p>
+                </div>
+            </div>
+            <div type="closer" xml:id="closer" facs="#z_closer">
+                <signed>
+                    <persName type="real" ref="coverlessListPerson.xml#faustAutore" rend="italic bold">Faust</persName>.
+                </signed>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+				<title> Lista di entità nominate per i testi codificati per il progetto dell'esame di "Codifica dei testi": luoghi
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+				<respStmt>
+					<resp>Progetto d'esame a cura di</resp>
+					<name ref="#FD">Francesca D'Apolito</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListPlace.xml</idno> 
+			</publicationStmt>
+         <sourceDesc>
+            
+            <listPlace type="toponomastica" ana="#IT">
+					
+               <place xml:id="MI" type="real">
+                	<placeName ref="https://www.treccani.it/enciclopedia/milano/ https://www.geonames.org/3173435/milano.html">Milano</placeName>
+                	<country key="IT">Italia</country>
+               </place>
+
+			   <place xml:id="CA" type="real">
+			   		<placeName ref="https://www.treccani.it/enciclopedia/cagliari/ https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
+					<country key="IT">Italia</country>
+				</place>
+
+				<place xml:id="Parigi" type="real">
+                	<placeName ref="https://www.treccani.it/enciclopedia/parigi/ https://www.geonames.org/2988507/parigi.html">Parigi</placeName>
+                	<country key="FR">Francia</country>
+            	</place>
+
+				<place xml:id="Normandia" type="real">
+					<placeName ref="https://www.treccani.it/enciclopedia/normandia/ https://www.geonames.org/11071621/normandia.html">Normandia</placeName>
+					<country key="FR">Francia</country>
+				</place>
+
+				<place xml:id="Mar_Nero" type="real">
+					<placeName ref="https://www.treccani.it/enciclopedia/mar-nero/ https://www.geonames.org/630673/mar-nero.html" type="natural" subtype="sea">
+						<geogName>
+						<geogFeat>Mar</geogFeat>Nero
+						</geogName>
+					</placeName>
+				</place>
+				
+            </listPlace>
+
+			<listPlace type="odonomastica">
+
+				<place xml:id="Galleria_Vittorio_Emanuele" type="real">
+					<placeName>Galleria Vittorio Emanuele II</placeName>
+					<settlement type="provincia" key="MI">Milano</settlement>
+					<country key="IT">Italia</country>
+					<note source="https://it.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II"><p>La galleria Vittorio Emanuele II è una galleria commerciale di Milano che, in forma di strada pedonale coperta, collega piazza Duomo a piazza della Scala.</p></note>
+				</place>
+
+				<place xml:id="Theatre_des_Varietes" type="real">
+					<placeName>Théâtre des Variétés</placeName>
+					<settlement>Parigi</settlement>
+					<country key="FR">Francia</country>
+					<note source="https://it.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_Vari%C3%A9t%C3%A9s"><p>Il Théâtre des Variétés è un teatro e "salle de spectacles" al 7, boulevard Montmartre, II arrondissement, a Parigi. È stato dichiarato monumento storico nel 1975.</p></note>
+				</place>
+
+				<place xml:id="Bosco_Di_Boulogne" type="real">
+					<placeName>Bosco di Boulogne</placeName>
+					<settlement>Parigi</settlement>
+					<country key="FR">Francia</country>
+					<note source="https://it.wikipedia.org/wiki/Bois_de_Boulogne"><p>Il Bois de Boulogne (AFI: /bwa d(ə) buˈlɔɲ/) è un parco situato al limite occidentale del XVI arrondissement della città di Parigi, lungo la Senna e al confine con Boulogne-Billancourt e Neuilly-sur-Seine. Progettato da J. C. A. Alphand.</p></note>
+				</place>
+
+				<place xml:id="rue_Henry_Monnier" type="real">
+					<placeName>rue Henry-Monnier</placeName>
+					<country key="FR">Francia</country>
+				</place>
+
+			</listPlace>
+
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Questo file contiene la lista completa dei luoghi codificati per il progetto COVerLeSS.</p>
+      </body>
+   </text>
+</TEI>

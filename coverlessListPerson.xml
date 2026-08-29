@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> Lista di entità nominate per i testi codificati per il progetto dell'esame di "Codifica dei testi": le persone
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+				<respStmt>
+					<resp>Progetto d'esame a cura di</resp>
+					<name ref="#FD">Francesca D'Apolito</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListPerson.xml</idno> 
+			</publicationStmt>
+			<sourceDesc>
+
+				<listPerson xml:id="ListPerson">
+
+					<person xml:id="faustAutore">
+						<persName type="real" role="author">
+							<addName type="pseudonym">Faust</addName>
+    					</persName>
+						<note><p>Pseudonimo di un collaboratore della rivista "La Farfalla", che si è occupato della stesura dell'articolo "Un preludio di Faust". La vera identità dell'autore è ignota.</p></note>
+					</person>
+
+					<person xml:id="principale">
+						<persName type="real" role="editor">
+							<addName type="alias">Principale</addName>
+						</persName>
+						<note><p>Direttore o editore della rivista "La Farfalla", citato nell'articolo "Un preludio di Faust". La sua vera identità non è esplicitata nel testo.</p></note>
+					</person>
+
+					<person xml:id="bartolomeEstebanMurillo">
+						<persName type="real" role="author">
+							<ref target="https://viaf.org/en/viaf/76584455"/>
+							<forename>Bartolomé</forename>
+							<forename>Estéban</forename>
+							<surname>Murillo</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1617">1617</date>
+						</birth>
+						<death>
+							<date when="1682">1682</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/bartolome-esteban-murillo/"><p>Pittore (Siviglia 1618 - ivi 1682). Massimo artista del barocco religioso, nelle sue opere rivelò una ricchezza nella pennellata e una padronanza tecnica notevoli, tutti elementi volti alla costituzione di un linguaggio sentimentale che rese famose le sue madonne e i suoi ritratti, dall'acuta interpretazione psicologica.</p></note>
+					</person>
+
+					<person xml:id="flora">
+						<persName type="fictional">
+							<forename>Flora</forename>
+						</persName>
+						<sex>F</sex>
+						<note source="https://www.treccani.it/enciclopedia/flora_res-7a0e90d2-a848-11de-baff-0016357eee51/"><p>(lat. Flora) Antica dea italica (in osco Flusia) collegata con il fiorire in primavera delle piante (forse delle spighe in particolare); ebbe molto presto un culto a Roma (forse introdotto dai Sabini), come testimonia la presenza di un suo flamen (flamen Floralis). Una tarda tradizione faceva di F. l’originario nome sacrale di Roma. Nel 241 a.C. furono istituite le sue feste, le Floralie, che si celebravano dal 28 aprile al 3 maggio, con giochi nel Circo Massimo ed erano note per la particolare licenziosità. La testa giovanile della dea con corona di fiori compare su denari della gente Servilia. Conosciamo anche tipi statuari panneggiati, con fiori come attributo.</p></note>
+					</person>
+
+					<person xml:id="pigmalione">
+						<persName type="fictional">
+							<forename>Pigmalione</forename>
+						</persName>
+						<sex>M</sex>
+						<note source="https://www.treccani.it/enciclopedia/pigmalione/"><p>(gr. Πυγμαλίων) Mitico re di Cipro; si sarebbe innamorato di una statua d’avorio di Afrodite o di donna, secondo una versione del mito scolpita da lui stesso. L’amò come creatura viva, finché per miracolo di Afrodite la statua si trasformò in fanciulla vivente, che P. sposò avendone una figlia, Pafo. Il motivo della statua di P. ricorre anche nelle mitologie finnica e lituana.</p></note>
+					</person>
+
+					<person xml:id="galatea">
+						<persName type="fictional">
+							<forename>Galatea</forename>
+						</persName>
+						<sex>F</sex>
+						<note source="https://www.treccani.it/enciclopedia/galatea/"><p>Nereide, così chiamata dalla spuma marina, bianca come il latte (γάλα); amata da Polifemo, gli generò il figlio Galato (o anche Celto e Illirio; eponimi dei Galati, Celti e Illiri). Secondo un’altra versione, Polifemo ebbe come rivale il giovinetto Aci, figlio di Pan e di una ninfa, e lo uccise con un masso; G. ottenne che fosse mutato nell’omonimo fiume siciliano.</p></note>
+					</person>
+
+					<person xml:id="giovanniBottesini">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/61731125"/>
+							<forename>Giovanni</forename>
+							<surname>Bottesini</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1821">1821</date>
+						</birth>
+						<death>
+							<date when="1889">1889</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/giovanni-bottesini/"><p>Musicista (Crema 1821 - Parma 1889). Iniziò in America la sua carriera di concertista di contrabbasso e direttore d'orchestra e compositore. Diresse stagioni teatrali e concertistiche in America, Inghilterra, Francia, Russia, ecc., e fu acclamato in tutto il mondo come il maggiore virtuoso del suo strumento. Diresse al Cairo (1871) la prima rappresentazione dell'Aida. Pochi mesi prima della morte fu nominato, per consiglio di G. Verdi, direttore del conservatorio di Parma. Compose molte opere teatrali (rapp. dal 1847 al 1880), musiche da camera e per canto. Lasciò un Metodo completo per contrabbasso.</p></note>
+					</person>
+
+					<person xml:id="farfallino">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/43152742887527730103"/>
+							<forename>Giacinto</forename>
+							<surname>Fontana</surname>
+							<addName type="pseudonym">Farfallino</addName>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1692">1692</date>
+						</birth>
+						<death>
+							<date when="1739">1739</date>
+						</death>
+						<note source="https://it.wikipedia.org/wiki/Giacinto_Fontana"><p>Giacinto Fontana, detto Farfallino (Perugia, 1692 – Perugia, 1739), è stato un famoso cantante lirico castrato italiano degli inizi del XVIII secolo, il più famoso degli specialisti nell'interpretazione di ruoli femminili a Roma e nelle zone dello Stato Pontificio dove alle donne era vietato di calcare le scene.</p></note>
+					</person>
+
+					<person xml:id="johannSebastianBach">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/12304462"/>
+							<forename>Johann</forename>
+							<forename>Sebastian</forename>
+							<surname>Bach</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1685">1685</date>
+						</birth>
+						<death>
+							<date when="1750">1750</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/johann-sebastian-bach/"><p>Compositore tedesco (Eisenach 1685 - Lipsia 1750). Universalmente considerato come uno dei più grandi musicisti di tutti i tempi, le sue composizioni furono ritenute dai contemporanei 'all'antica' per lo stile legato alla tradizione polifonica del Rinascimento, e solo nei primi anni dell'Ottocento, grazie al musicologo tedesco J.N. Forkel, autore della prima biografia del compositore, ebbe inizio la cd. rinascita bachiana. Nel 1829 F. Mendelssohn-Bartholdy rimaneggiò e diresse la Passione secondo Matteo, a cento anni dalla prima esecuzione. Il rinnovato interesse romantico per B. portò compositori come R. Schumann a costituire nel 1850 la Società Bach, che ebbe il compito non solo di favorire l'esecuzione delle sue musiche, ma anche di pubblicarne l'intera opera.</p></note>
+					</person>
+
+					<person xml:id="charlesGounod">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/32183285"/>
+							<forename>Charles</forename>
+							<forename>François</forename>
+							<surname>Gounod</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1818">1818</date>
+						</birth>
+						<death>
+							<date when="1893">1893</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/charles-francois-gounod/"><p>Musicista francese (Parigi 1818 - ivi 1893). Conoscitore profondo e raffinato delle leggi armoniche e contrappuntistiche, ottenne indiscusso successo con Faust (1859). Nelle sue pagine migliori trova la strada di un'immediata comunicativa, in uno stile che si nutre della nuova sensibilità romantica dell'Ottocento francese, pur essendo pregno di elementi provenienti dal migliore Settecento francese e dal teatro mozartiano.</p></note>
+					</person>
+
+					<person xml:id="gioacchinoRossini">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/34644407"/>
+							<forename>Gioacchino</forename>
+							<surname>Rossini</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1792">1792</date>
+						</birth>
+						<death>
+							<date when="1868">1868</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/gioacchino-rossini/"><p>Musicista (Pesaro 1792 - Passy, Parigi, 1868). Figlio di un suonatore di trombetta e di un buon soprano, a Lugo cominciò a profittare degli insegnamenti (clavicembalo e canto) di don Giuseppe Malerbi, finché a Bologna (circa alla fine del 1804) fu affidato al noto maestro A. Tesei, allievo di S. Mattei. Qui egli divenne abile suonatore di viola e ottimo accompagnatore al cembalo. Nel 1806, iscritto al liceo musicale bolognese, vi completò gli studî nel violoncello, nel pianoforte e nel contrappunto. Già componeva, intanto, le prime musiche, tra le quali si ricorda la cantata Il pianto d'Armonia sulla morte d'Orfeo (1808) per la chiusura dell'anno scolastico, e le arie per un Demetrio e Polibio, che fu allestito soltanto nel 1812. Ma già prima di allora egli aveva fatto rappresentare altre opere, scritte dal 1810 al 1812, e cioè da quando aveva abbandonato il conservatorio (lasciando incompiuti gli studî di composizione) per lavorare per impresarî. La prima fu la farsa in un atto La cambiale di matrimonio (Venezia, 1810); seguì, nell'autunno 1811 a Bologna, l'opera L'equivoco stravagante, da cui R. trasse poi pagine per La pietra di paragone. Il 1812 iniziò per R. con una nuova farsa, L'Inganno felice, applaudita a Venezia nel gennaio, e proseguì con l'opera seria (impropriamente chiamata oratorio) Ciro in Babilonia, rappresentata con scarso successo a Ferrara, con la poco fortunata farsa La scala di seta (Venezia, 5 maggio), con la prima rappresentazione del Demetrio e Polibio (Roma, 18 maggio), con La pietra di paragone (Milano, 26 sett.), melodramma giocoso che si può dire "rivelò" il genio rossiniano, conquistando l'entusiasmo del pubblico per oltre 50 repliche. Sempre del 1812 è la farsa L'occasione fa il ladro (Venezia, 24 nov.), non molto fortunata nonostante la sua reale vivacità e grazia. Tra l'altro vi si nota il caratteristico procedimento, eternato poi dal Barbiere, di affidare alla voce un semplice declamato mentre l'orchestra ricama un'agile melodia. Nel 1813 si dette a Venezia un'altra farsa: Il Signor Bruschino ovvero il figlio per azzardo, che ancora oggi si rappresenta con successo. Grandi entusiasmi destò la nuova opera seria di R.: il Tancredi ("melodramma eroico", rappresentato a Venezia il 6 febbr. dello stesso anno), nel quale R., irrobustendo la propria scrittura musicale e manifestando ormai una completa maturità tecnica, nonché conferendo all'opera seria un'inconsueta snellezza grazie alla limitazione dei recitativi a vantaggio dei pezzi d'insieme, mostrava di avviarsi a conquistare la preminenza sul gusto musicale europeo. La stessa importanza che nel genere serio ha il Tancredi può essere riconosciuta, nel genere comico, alla nuova opera di R., L'Italiana in Algeri, rappresentata a Venezia il 22 maggio 1813. Né lo scarso successo di alcune opere dal 1813 al 1814 (Aureliano in Palmira, seria, Milano, 26 dic. 1813; Il Turco in Italia, buffa, Milano, 14 ag. 1814; Sigismondo, seria, Venezia, 26 dic. 1814) riuscì a menomare tale fiducia nel compositore. Questi intanto riceveva dall'impresario D. Barbaja la direzione dei teatri napoletani di S. Carlo e del Fondo, con l'obbligo di scrivere due opere l'anno. R. andò a Napoli, e qui ben si adattò all'ambiente teatrale della città (dove tra i cantanti primeggiava Isabella Colbran, sua futura moglie), conquistando subito, con l'Elisabetta regina d'Inghilterra (seria; 4 ott. 1815), l'entusiasmo generale. Della facoltà, concessagli dal contratto con Barbaja, di comporre anche opere per altre città, R. si giovò per rappresentare a Roma, tra l'altro, Torvaldo e Dorliska (seria; 26 dic. 1815), poco fortunata, e un'opera comica commissionatagli per l'Argentina il 15 dic.: Almaviva ossia l'inutile precauzione. Questo Almaviva non era altro che il Barbiere di Siviglia, il cui titolo era stato così mutato per rispetto al Barbiere di G. Paisiello, il vecchio glorioso maestro, allora ancora vivente. L'esito dell'opera fu disastroso alla prima rappresentazione (20 febbr. 1816) ma migliorò assai nelle repliche, e il nuovo Barbiere passò presto, acclamato, in tutti i teatri d'Italia. La partitura fu scritta in una ventina di giorni e, contrariamente a quanto dissero alcuni, non contiene musica d'altri maestri. Qua e là però compaiono spunti di altre opere rossiniane e la sinfonia che oggi si conosce è quella dell'Aureliano in Palmira (poi trasmigrata anche nell'Elisabetta), mentre quella composta (su temi spagnoli) per il Barbiere è andata poi perduta. Tornato a Napoli, R. dette subito due nuove opere: La Gazzetta (comica; 25 sett. 1816), ben presto caduta in un meritato oblio, e Otello, ossia il moro di Venezia (seria; 4 dic. 1816), stupenda affermazione del genio rossiniano che procurò un nuovo trionfo ai cantanti (Colbran, Nozzari) e all'autore. Il 25 genn. 1817 R. dette al Teatro Valle di Roma La Cenerentola, miracolo (e anche questa composta in pochi giorni) non inferiore al Barbiere per pregi musicali, per quanto su libretto poco consistente in confronto a quello, eccellente, dell'altra opera. L'insuccesso alla prima andò poi mutando fino al trionfo. Da Roma R. passava a Milano, facendovi applaudire un altro capolavoro, La Gazza ladra (semiseria; 31 maggio 1817). Tornò quindi a Napoli, e vi dette un'Armida (eroica; 11 nov. 1817) accuratamente elaborata ma non bene accolta e tornata con successo sulle scene nel sec. 20° dopo un periodo d'oblio. Altro insuccesso, quello della seria Adelaide di Borgogna ovvero Ottone re d'Italia (Roma, 27 dic. 1817). Poi, alternando periodi di faciloneria con altri di coscienzioso impegno, compì un notevole passo verso la dignità e la coerenza drammatica con l'"azione tragico-scenica" del Mosè in Egitto (seria; Napoli, 5 marzo 1818). Seguì un nuovo periodo di lavori mediocri, alcuni dei quali però fortunati all'epoca: Adina o Il Califfo di Bagdad (comica; rappr. a Lisbona solo nel giugno 1826); Riccardo e Zoraide (seria; Napoli, 3 dic. 1818), applauditissima; Ermione (seria; Napoli, 27 marzo 1819), caduta nonostante la presenza di un potente, drammatico finale; Edoardo e Cristina (seria; Venezia, 24 apr. 1819), applaudita. Importante è invece La donna del lago, opera seria composta sulla trama dell'omonimo romanzo di W. Scott, nella quale R. entra per la prima volta in contatto con il romanticismo europeo. Non compresa alla prima rappresentazione (Napoli, 24 sett. 1819), divenne poi, ben presto, popolarissima. Mediocre una Bianca e Falerio (seria), rappresentata a Milano il 26 dic. 1819, mentre un Maometto II (seria; Napoli, 3 dic. 1820), pur non molto applaudito, segnava un progresso notevole nella via della dignità drammatica e dell'autorevolezza concettuale. A Roma seguiva, con esito contrastato, una Matilde di Shabran (seria; 24 febbr. 1821). Ed ecco le ultime musiche per Napoli: due cantate e l'opera Zelmira (16 febbr. 1822), il cui grande successo si rinnovò nelle numerose repliche in tutta Italia e in quella Vienna (1822) ove R. si recò dopo aver celebrato le nozze con Isabella Colbran. Anche a Vienna R. si conquistò gli animi. Tornato in Italia, la sua fama europea ebbe una consacrazione ufficiale nell'invito a Verona (dic. 1822) per dare le sue musiche alla solennità del Congresso delle Nazioni. Nacquero così quattro cantate (Il vero omaggio; L'augurio felice; La sacra alleanza e Il Bardo). Seguì l'ultima opera italiana di R.: Semiramide (seria; Venezia, 3 febbr. 1823), nuovo saggio nel genere storico e nella concezione grandiosa del Mosè, che disorientò sulle prime il pubblico, ma non tardò ad assicurarsi universale successo. Nell'ottobre 1823 i coniugi R. partirono per Parigi e vi si trattennero per un mese, proseguendo poi per Londra dove li chiamava un contratto col King's Theatre e vi rimasero circa sei mesi tra il favore della corte e l'entusiasmo del pubblico. Per Londra R. non scrisse nulla di nuovo, tranne una cantata Il pianto delle Muse in morte di Lord Byron. Ritornato da Londra in possesso di una fortuna ormai notevole, il maestro si stabilì a Parigi quale direttore della musica e della scena al Teatro Italiano. Il 19 giugno 1825 egli dette una piccola opera di circostanza, Le voyage à Reims, per festeggiare l'incoronazione di Carlo X (la musica di quest'opera verrà trasfusa in Le comte Ory). R. mirava ormai, liberato com'era da ogni preoccupazione e da ogni scadenza, a scrivere a modo suo, elaborando attraverso successivi saggi uno stile nuovo che non s'accontentasse soltanto della brillante e fitta successione di arie e concertati, ma assicurasse allo spettacolo una continuità drammatica, un'omogeneità di colore e d'ambiente, secondo quanto avevano mostrato, un tempo, i lavori di C. W. Gluck e ora l'Olympia di G. Spontini e il Freischütz di C. M. von Weber. Primo tentativo in questo genere fu Le siège de Corynthe (trasformazione del Maometto II, 9 ott. 1826). Dopo quest'opera lasciò le sue cariche per quelle di compositore di Sua Maestà e ispettore generale del canto. Nel 1827 diede un rifacimento del Mosè (Moïse et le pharaon), riportando un vero trionfo. Ma l'opera nuova, che il pubblico parigino sempre più ansiosamente richiedeva, non venne che con Le comte Ory. In quest'opera comica, che trionfò all'Opéra il 20 ag. 1828, non vi è più la comicità irresistibile del Barbiere, ma piuttosto un sottile umorismo, un'arguzia diffusa, eleganza, continuità espressiva; qualità che avranno influenza incalcolabile su tutta la scuola ottocentesca dell'opera francese. Seguì l'anno dopo (prima rappresentazione, 3 ag. 1829) il Guillaume Tell, di cui De Jouy gli aveva preparato il libretto: anche i più accaniti antirossiniani, come J. F. Fétis, H. Berlioz ed altri, riconobbero la bellezza e l'enorme importanza del capolavoro. Questo Tell, con cui R. pareva essersi impadronito di uno stile nuovo, adatto all'ambiente e ai tempi, fu l'ultima opera lirica che egli scrisse. Più che l'avversione per il nuovo gusto musicale che si veniva formando, sembra che veramente una naturale indolenza, unita a molte fastidiose contrarietà pratiche e allo stato precario della sua salute (nel 1831 R. era stato colpito da una grave forma di esaurimento nervoso), abbia fatto svanire a poco a poco nel maestro quello stato di tensione creativa in cui le necessità l'avevano fino allora tenuto: egli si limitava ormai a buttar giù brevi pagine umoristiche per canto o per pianoforte (Soirées musicales, 1835) o si dedicava a cesellare, con una calma e una accuratezza che l'agitata vita operista non gli aveva mai consentito, due capolavori: lo Stabat Mater e la Petite Messe solennelle. Dopo il Tell, R. venne per qualche tempo in Italia, sostando a Milano e a Bologna, ovunque acclamatissimo. Intanto però la caduta di Carlo X veniva a complicare la sua situazione a Parigi, e soltanto grazie a lunghe liti e peripezie egli riusciva, perdendo ogni carica ufficiale, ad ottenere la dovuta pensione. Da quel momento la vita di R. si può dividere in quattro periodi: il primo dal 1829 al 1836, in cui egli visse solo a Parigi e iniziò lo Stabat Mater. Si era intanto diviso dalla Colbran per convivere con Olimpia Pélissier, preziosa e fedele compagna, che avrebbe sposato il 16 ag. 1846, poco dopo la morte della Colbran (7 ott. 1845). Il secondo periodo, dal 1836 al 1848, R. tornò in Italia, stabilendosi a Bologna, occupandosi seriamente del liceo musicale bolognese e completando lo Stabat che, a Parigi nel genn. 1848, e a Bologna (direttore G. Donizetti) nel marzo seguente, rinnovò l'entusiasmo europeo per il suo genio. Veniva intanto acuendosi la reciproca incomprensione tra il vecchio maestro e i nuovi spiriti liberali e patriottici, incomprensione che si esasperò nel 1848 fino a determinare manifestazioni contro di lui e in conseguenza la sua fuga a Firenze. Dal 1848 al 1855 si svolse il terzo periodo, appunto "fiorentino": periodo rattristato specialmente dall'aggravarsi delle infermità, per curare le quali R. tornò a Parigi, dove rimase dal 1855 in poi. Migliorate le sue condizioni fisiche, R. poté assumere a Parigi quella posizione di incontrastato prestigio che tenne fino alla morte, attorniato, nella sua villa di Passy, dalla reverenza di tutti. Placate le invidie e le rivalità, egli viveva ormai della sua gloria, assistendo all'universale omaggio che tutti i musicisti gli tributavano: non ultimi, i più giovani e ambiziosi rivoluzionarî, quali Wagner e Berlioz. L'esecuzione, in sede privata, della sua ultima composizione d'impegno, la Petite Messe solennelle (marzo 1864), si risolse in un commovente tributo d'ammirazione dei maggiori musicisti francesi del tempo, Meyerbeer, Gounod, ecc. Dall'Italia gli giungevano parimenti omaggi e inviti: tra l'altro, il ministro E. Broglio, in una lettera del 1868, lo invitava a presiedere una "Società rossiniana" per apportare un miglioramento alla situazione dell'opera lirica in Italia. Poco dopo, aggravatasi nuovamente la sua salute, moriva la sera del 13 nov. 1868 ed era sepolto al Père-Lachaise, donde la salma fu poi riportata in Italia nel 1887 e tumulata in Santa Croce a Firenze. L'arte di R. seppe rinnovare il teatro musicale italiano e contribuì largamente a rinnovare anche quello europeo, che con W. A. Mozart, D. Cimarosa, G. B. Paisiello era giunto all'ultima, suprema espressione della raffinata e delicata sensibilità settecentesca. La rivoluzione operata da R., trionfante fin dalle opere giovanili ovunque queste apparissero, significò l'avvento di un teatro assai diverso: uno stile dinamico e semplice, un'ispirazione ritmica d'irresistibile slancio, un tono luminoso e caldo, riuscirono ad attirare in teatro un nuovo pubblico: quello delle masse del popolo, imponendosi alla sua ingenua spiritualità con la forza di uno dei grandi fenomeni della natura. Sulle sue orme procedettero in Italia tutti gli operisti, da V. Bellini a G. Verdi, in Francia gli operisti da D.-F.-E. Auber a J. Meyerbeer, mentre nei paesi tedeschi gli stessi oppositori, come per es., Weber, finirono col subire la sua influenza. ▭ A R. Pesaro dedica dal 1980 un importante festival estivo, il Rossini Opera Festival. Le opere rossiniane sono, inoltre, modernamente edite, secondo aggiornati criterî filologici, a cura della Fondazione Rossini di Pesaro.</p></note>
+					</person>
+
+					<person xml:id="psicheAutore">
+						<persName type="real" role="author">
+							<addName type="pseudonym">Psiche</addName>
+    					</persName>
+						<note><p>Pseudonimo di un collaboratore della rivista "La Farfalla", che si è occupato della stesura dell'articolo "Nana". La vera identità dell'autore è ignota.</p></note>
+					</person>
+
+					<person xml:id="charlesCoupeau">
+						<persName type="fictional">
+							<forename>Charles</forename>
+							<surname>Coupeau</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo L'Assommoir di Émile Zola</p></note>
+					</person>
+
+					<person xml:id="gervaiseMacquart">
+						<persName type="fictional">
+							<forename>Gervaise</forename>
+							<surname>Macquart</surname>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Protagonista del romanzo L'Assommoir di Émile Zola.</p></note>
+					</person>
+
+					<person xml:id="emileZola">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/32004502"/>
+							<forename>Émile</forename>
+							<surname>Zola</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1840">1840</date>
+						</birth>
+						<death>
+							<date when="1902">1902</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/emile-zola/"><p>Scrittore francese (Parigi 1840 - ivi 1902). Affermatosi dapprima come critico d'arte, difese l'impressionismo. Teorico del naturalismo, ne offrì un modello esemplare nella sua opera narrativa: da Teresa Raquin (1868) al ciclo Les Rougon-Macquart, histoire naturelle et sociale d'une famille sous le Second Empire (1871-93), che comprende L'assommoir (1877) e Germinal (1885), i romanzi di Z. costituiscono un immenso affresco della società del tempo, osservata con rigore scientifico e con una scrupolosa ricognizione storica, sociologica, linguistica. Di convinzioni repubblicane, nell'affaire Dreyfus Z. prese posizione a favore dell'innocente: celebre è la lettera aperta nota con il titolo J'accuse (1898).</p></note>
+					</person>
+
+					<person xml:id="augusteLantier">
+						<persName type="fictional">
+							<forename>Auguste</forename>
+							<surname>Lantier</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Antagonista del romanzo L'Assommoir di Émile Zola.</p></note>
+					</person>
+
+					<person xml:id="nana">
+						<persName type="fictional">
+							<forename>Anna</forename>
+							<surname>Coupeau</surname>
+							<addName type="alias">Nanà</addName>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Personaggio del romanzo L'Assommoir e protagonista del romanzo Nana di Émile Zola. E' la figlia di Gervaise Macquart e Charles Coupeau.</p></note>
+					</person>
+
+					<person xml:id="margheritaGauthier">
+						<persName type="fictional">
+							<forename>Margherita</forename>
+							<surname>Gauthier</surname>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Protagonista del romanzo La signora delle camelie di Alexandre Dumas figlio.</p></note>
+					</person>
+
+					<person xml:id="armandoDuval">
+						<persName type="fictional">
+							<forename>Armando</forename>
+							<surname>Duval</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo La signora delle camelie di Alexandre Dumas figlio.</p></note>
+					</person>
+
+					<person xml:id="ovidio">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/88342447"/>
+							<forename>Publio</forename>
+							<surname>Ovidio</surname>
+							<surname>Nasone</surname>
+							<addName type="alias">Ovidio</addName>
+						</persName>
+						<note source="https://www.treccani.it/enciclopedia/publio-ovidio-nasone/"><p>Poeta latino (Sulmona 43 a. C. - Tomi, sul Mar Nero, 17 d. C.). Venuto giovanissimo a Roma, vi studiò retorica, ma passò presto alla poesia. Fu a contatto con i maggiori letterati e poeti del suo tempo, come Messalla, Cornelio Gallo, Properzio, Orazio, e frequentò la corte di Augusto, conducendo vita brillante. Esercitò magistrature minori, dopo un viaggio d'istruzione in Grecia, Egitto e Asia, e una permanenza in Sicilia; a Roma, in pochi anni, contrasse tre matrimonî, dei quali solo il terzo fu lungo e felice. Nel frattempo, già dai primi anni, nel circolo di Messalla, aveva composto una tragedia, Medea, assai lodata nell'antichità, e aveva cominciato a comporre un canzoniere amoroso in distici elegiaci, che pubblicò nel 14 a. C. in cinque libri e poi, rimaneggiato in tre libri, pochi anni dopo: gli Amores. A questa raccolta di poesie leggere e galanti seguirono le Heroides (titolo originale, forse, Epistulae), fittizie lettere scritte da eroine celebri della mitologia ai loro amanti, probabilmente rimaneggiate ed edite più volte, e l'Ars amatoria (v.), pubblicata in due riprese nei primi anni dell'era volgare. Con quest'ultima O. diventò il beniamino di tutta la società raffinata di Roma. Come completamento dell'Ars, seguirono poi i Remedia amoris (poemetto in 40 distici) e il De medicamine faciei (carme in distici sui cosmetici, di cui ci resta un centinaio di versi). Intorno al 3 d. C. O. si dedicò alla composizione di opere di più vasto respiro: le Metamorfosi e i Fasti. La prima, composta in esametri, è un vasto poema in quindici libri, nel quale si narrano favole eziologiche e miti (che hanno come conclusione la metamorfosi dei protagonisti). Nei Fasti, che si ispirano agli Aitia di Callimaco, il poeta voleva illustrare in distici elegiaci, in dodici libri, uno per ogni mese dell'anno, e cantare in ordine l'origine e i miti legati alle feste del calendario romano, ma il poema fu interrotto al libro 6° perché O., nell'8 d. C. fu colpito da un durissimo decreto di Augusto, che gli imponeva di lasciare Roma e lo relegava a Tomi (che si è identificata con l'odierna Costanza), nella Scizia. Le cause dell'esilio di O. non sono chiare; carmen et error, secondo le parole di O. stesso nel 2° libro dei Tristia, cioè l'Ars amatoria da un lato, e, probabilmente, l'essersi trovato implicato (involontariamente, secondo varie affermazioni del poeta) in qualche scandalo di corte, dai moderni per lo più identificato con l'adulterio di Giulia, nipote di Augusto, esiliata nello stesso anno, e D. Giunio Silano. A Tomi O. rimase fino alla morte, non avendo ottenuto neppure da Tiberio la revoca del decreto. In viaggio verso l'esilio compose il poemetto Ibis (in 322 distici), contro un detrattore, e i due primi libri dei Tristia (elegie), seguiti nel 12 d. C. da altri tre; in esilio scrisse le Epistulae ex Ponto di cui pubblicò tre libri insieme ai Tristia, elegie in forma epistolare, dedicate ognuna a un amico a Roma (il 4° libro delle Epistulae ex Ponto fu pubblicato postumo), un poemetto sulla pesca, Halieutica (di cui abbiamo 134 versi), e un carme celebrante Augusto, Livia e Tiberio in lingua getica. Di O. sono andati perduti solo carmi minori e la tragedia Medea. ▭ Poeta non profondo, verseggiatore abile di straordinaria facilità espressiva e fluidità, immaginazione fervida e intelligente temperamento di narratore, di colorista e di psicologo, O. è una personalità dominante nella cultura latina, e il suo influsso si perpetua potente nel Medioevo, nell'Umanesimo, nel Rinascimento; solo in età moderna la sua fama è stata alquanto ridimensionata. Nelle elegie amorose del primo periodo vive tutta una società romana ormai profondamente diversa da quella tardo-repubblicana, spesso angosciata da quei problemi rivissuti nella poesia da Virgilio o da Orazio; è un mondo brillante, disposto ad accettare una poesia di immediata comprensione e di piacevole evasione. Nelle Metamorfosi e in qualche brano delle Heroides, il suo talento di narratore, di pittore del meraviglioso e di psicologo attento a cogliere oscuri aspetti dell'anima femminile, si rivela più incisivo che altrove; e infatti queste due opere, e tra esse soprattutto il maggiore poema, ricco di immagini plastiche e di seducenti fantasie, hanno offerto materia infinita di imitazione e variazione alla successiva letteratura, come alle arti figurative. L'elegia triste del periodo dell'esilio, nella quale pur si coglie una vena a volte notevole di poesia dolente, di rievocazione viva e drammatica della patria lontana, è viziata dal desiderio di compiacere all'imperatore, di muoverlo a pietà e ottenere la revoca del bando. Da O., erede della tradizione ellenistica ma non come i neoteroi accurato cesellatore del verso, dipende, in misura più evidente ancora che da Virgilio, la forma poetica latina dei secoli successivi.</p></note>
+					</person>
+
+					<person xml:id="giuliaMaggiore">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/316751293"/>
+							<forename>Giulia</forename>
+						</persName>
+						<note source="https://www.treccani.it/enciclopedia/giulia/"><p>Figlia di Augusto e di Scribonia (39 a. C. - 14 d. C.), nel 25 a. C. sposò Marcello nipote di Augusto, ma due anni dopo rimase vedova, e nel 21 sposò Agrippa, dal quale ebbe cinque figli: Gaio e Lucio Cesare, Giulia, Agrippina maggiore, Agrippa Postumo. Morto nel 12 Agrippa, sposò nell'11 a. C. Tiberio e condusse una vita così dissoluta che il marito dovette separarsi da lei: Augusto la fece relegare (2 a. C.) nell'isola di Pandataria (od. Ventotene), poi a Reggio, dove morì.</p></note>
+					</person>
+					
+					<person xml:id="agrippaPostumo">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/10768718"/>
+							<forename>Marco</forename>
+							<forename>Vipsanio</forename>
+							<surname>Agrippa</surname>
+							<surname>Postumo</surname>
+							<addName type="alias">Agrippa Postumo</addName>
+						</persName>
+						<note source="https://www.treccani.it/enciclopedia/agrippa-postumo/"><p>Figlio (12 a. C. - 14 d. C.) di Agrippa e di Giulia, figlia di Augusto. Adottato da Augusto assieme a Tiberio (4 d. C.), poi per volontà di Livia confinato a Sorrento e successivamente a Pianosa. Poco prima di morire, Augusto si era riconciliato con lui, e per questo Livia, subito dopo la morte dell'imperatore, lo fece uccidere, timorosa che potesse ostacolare l'ascesa all'impero di Tiberio.</p></note>
+					</person>
+
+					<person xml:id="giorgioGermont">
+						<persName type="fictional">
+							<forename>Giorgio</forename>
+							<surname>Germont</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio dell'opera La traviata di Giuseppe Verdi.</p></note>
+					</person>
+
+					<person xml:id="alexandreDumasFiglio">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/76315034"/>
+							<forename>Alexandre</forename>
+							<surname>Dumas</surname>
+							<addName type="alias">Alexandre Dumas figlio</addName>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1824">1824</date>
+						</birth>
+						<death>
+							<date when="1895">1895</date>
+						</death>
+						<note source="https://www.treccani.it/enciclopedia/alexandre-dumas_res-eb3e0b82-86d5-11dc-9a1b-0016357eee51/"><p>Scrittore (Parigi 1824 - Marly-le-Roi 1895), figlio naturale di A. D. père. Ottenne il primo successo letterario col romanzo La Dame aux camélias (1848) da cui trasse il dramma di uguale titolo (prima rappr.: Parigi 1852), che divenne celebre in tutto il mondo (da esso è tratto il libretto della Traviata di Verdi). Il D. scrisse in seguito numerosi romanzi e drammi, tra cui: Diane de Lys (dramma, 1853); Le demi-monde (1855); La question d'argent (dramma, 1857); Le fils naturel (dramma, 1858); Un père prodigue (dramma, 1859); L'ami des femmes (1864); Les idées de Madame Aubray (1867); La princesse Georges (1871); La femme de Claude (1873); Monsieur Alphonse (1873); L'Étrangère (1876); La Princesse de Bagdad (1881); Denise (1885); Francillon (1887), ecc., tutte opere che riportarono vivissimo successo. Alla bravura, e talora all'artificio, con cui dominò il teatro borghese e realista, si aggiunse l'attualità delle tesi sociali: posizione della donna nella società, pregiudizî dell'egoismo maschile e degli istinti di casta, visti come insidie contro la compagine della famiglia e della nazione. Nel 1874 fu eletto membro dell'Académie Française.</p></note>
+					</person>
+
+					<person xml:id="alfredGrevin">
+						<persName type="real">
+							<ref target="https://viaf.org/en/viaf/66548434"/>
+							<forename>Alfred</forename>
+							<surname>Grévin</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1827">1827</date>
+						</birth>
+						<death>
+							<date when="1892">1892</date>
+						</death>
+						<note source="https://it.wikipedia.org/wiki/Alfred_Gr%C3%A9vin"><p>Alfred Grévin (Épineuil, 28 gennaio 1827 – Saint-Mandé, 5 maggio 1892) è stato un disegnatore e scultore francese.</p></note>
+					</person>
+
+					<person xml:id="louiset">
+						<persName type="fictional">
+							<forename>Louiset</forename>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo Nanà di Émile Zola. E' il figlio della protagonista Nanà.</p></note>
+					</person>
+
+					<person xml:id="angioletta">
+						<persName type="unknown">
+							<forename>Angioletta</forename>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Persona citata nell'articolo "Un preludio di Faust" della rivista "La Farfalla". Viene descritta come una fioraia.</p></note>
+					</person>
+
+					<person xml:id="teresa">
+						<persName type="unknown">
+							<forename>Teresa</forename>
+						</persName>
+						<sex>F<7sex>
+						<note resp="#FD"><p>Persona citata nell'articolo "Un preludio di Faust" della rivista "La Farfalla". Dalla descrizione che se ne fa, sembra essere una fioraia che ha perso o lasciato il suo mestiere.</p></note>
+					</person>
+
+					<person xml:id="muffatDeBeuville">
+						<persName type="fictional">
+							<forename>Muffat</forename>
+							<surname>de Beuville</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. E' un membro del governo francese e uno degli amanti di Nanà.</p></note>
+					</person>
+
+					<person xml:id="sabineDeBeuville">
+						<persName type="fictional">
+							<forename>Sabine</forename>
+							<surname>de Beuville</surname>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. E' la moglie del conte Muffat de Beuville ed amante di Daguenet.</p></note>
+					</person>
+
+					<person xml:id="sabineDeBeuville">
+						<persName type="fictional">
+							<forename>Sabine</forename>
+							<surname>de Beuville</surname>
+						</persName>
+						<sex>F</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. E' la figlia della contessa Sabine de Beuville e del conte Muffat de Beuville, e moglie di Daguenet.</p></note>
+					</person>
+
+					<person xml:id="georgesHugon">
+						<persName type="fictional">
+							<forename>Georges</forename>
+							<surname>Hugon</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. Fratello minore di Philippe Hugon, ed uno degli amanti di Nanà. Si suicida con un paio di forbici.</p></note>
+					</person>
+
+					<person xml:id="philippeHugon">
+						<persName type="fictional">
+							<forename>Philippe</forename>
+							<surname>Hugon</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. Fratello maggiore di Georges Hugon, ed uno degli amanti di Nanà. Finisce in galera per aver rubato soldi al suo avamposto per Nanà.</p></note>
+					</person>
+
+					<person xml:id="Fontan">
+						<persName type="fictional">
+							<surname>Fontan</surname>
+						</persName>
+						<sex>M</sex>
+						<note resp="#FD"><p>Personaggio del romanzo "Nana" di Émile Zola. E' un attore e uno degli amanti di Nanà.</p></note>
+					</person>
+				
+				</listPerson>
+
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>This is a template for a minimal TEI header with the mandatory components</p>
+		</body>
+	</text>
+</TEI>

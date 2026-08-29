@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> Lista di entità nominate per i testi codificati per il progetto dell'esame di "Codifica dei testi": le persone
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+				<respStmt>
+					<resp>Progetto d'esame a cura di</resp>
+					<name ref="#FD">Francesca D'Apolito</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListPerson.xml</idno> 
+			</publicationStmt>
+			<sourceDesc>
+                <p>File born digitale contenente la tassonomia dei temi per il progetto dell'esame di "Codifica di testi".</p>
+            </sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<classDecl>
+                <taxonomy xml:id="themesTaxonomy">
+					<category xml:id="conflittoSociale">
+                        <catDesc><term type="themes">Conflitto sociale</term>: è uno scontro aperto o latente tra individui, gruppi o classi sociali dovuto all'incompatibilità di interessi, scopi, valori o alla competizione per l'accesso a risorse limitate come il potere, la ricchezza o il prestigio.</catDesc>  
+                    </category>
+					<category xml:id="degradoMorale">
+                        <catDesc><term type="themes">Degrado morale</term>: è il progressivo scadimento, indebolimento o perdita dei princìpi etici, dei valori civili e del senso del dovere in una persona o in un'intera società.</catDesc>  
+                    </category>
+					<category xml:id="maternita">
+                        <catDesc><term type="themes">Maternità</term>:  è la condizione e il periodo della vita di una donna che va dall'inizio della gestazione fino alla nascita e all'allevamento dei figli. La sua definizione può assumere delle declinazioni che vanno oltre i concetti biologici.</catDesc>  
+                    </category>
+					<category xml:id="questioneMatrimoniale">
+						<catDesc><term type="themes">Questione matrimoniale</term>: l'insieme delle problematiche giuridiche, sociali, morali e religiose legate all'istituto del matrimonio. Le problematiche includono il divorzio, l'adulterio, le nozze forzate e la questione femminile.</catDesc>
+					</category>
+                </taxonomy>
+            </classDecl>
+		</encodingDesc>
+
+	</teiHeader>
+	<text>
+		<body>
+			<p>This is a template for a minimal TEI header with the mandatory components</p>
+		</body>
+	</text>
+</TEI>

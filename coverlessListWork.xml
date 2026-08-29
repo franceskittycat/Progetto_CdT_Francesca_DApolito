@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					Lista di entità nominate per i testi codificati  per il progetto dell'esame di "Codifica dei testi": le opere del Verismo
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+				<respStmt>
+					<resp>Progetto d'esame a cura di</resp>
+					<name ref="#FD">Francesca D'Apolito</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListWork.xml</idno> 
+			</publicationStmt>
+			<sourceDesc>
+                <p>File born digital contenente la bibliografia primaria e secondaria per il progetto d'esame di "Codifica di testi".</p>
+            </sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<p>This is a template for a minimal TEI header with the mandatory components:</p>
+		</body>
+		<back>
+			<div type="work">
+				<listBibl xml:id="bibliografiaPrimaria">
+				<!--la bibliografia andava costruita in questo modo?-->
+					<biblStruct type="romanzo" xml:id="assommoir">
+						<monogr>
+							<author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+							<title type="main" level="m">L'Assommoir</title>
+							<imprint>
+								<date when="1877">1877</date>
+								<pubPlace>Francia</pubPlace>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				
+				</listBibl>
+
+				<listBibl xml:id="bibliografiaSecondaria">
+				<!--mi è sembrato coerente inserire in bibliografia anche brani e opere musicali-->
+					<biblStruct type="brano_musicale" xml:id="aveMariaGounod">
+    					<monogr>
+        					<author ref="coverlessListPerson.xml#charlesGounod">Charles-François Gounod</author>
+        					<title type="main" level="m">Ave Maria</title>
+        					<imprint>
+            					<date when="1859">1859</date>
+        					</imprint>
+    					</monogr>
+					</biblStruct>
+
+					<biblStruct type="opera_buffa" xml:id="barbiereDiSiviglia">
+    					<monogr>
+        					<author ref="coverlessListPerson.xml#gioacchinoRossini">Gioacchino Rossini</author>
+        					<title type="main" level="m">Il Barbiere di Siviglia</title>
+        					<imprint>
+            					<date when="1816">1816</date>
+        					</imprint>
+    					</monogr>
+					</biblStruct>
+
+					<biblStruct type="brano_musicale" xml:id="preludioBach">
+						<monogr>
+							<author ref="coverlessListPerson.xml#johannSebastianBach">Johann Sebastian Bach</author>
+							<title type="main" level="m">Preludio n. 1 in Do maggiore, BWV 846</title>
+							<title type="sub">da "Il clavicembalo ben temperato" (Libro I)</title>
+							<imprint>
+								<date when="1722">1722</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct type="poema_epico" xml:id="metamorfosiOvidio">
+						<monogr>
+							<author ref="coverlessListPerson.xml#ovidio">Publio Ovidio Nasone</author>
+							<title type="main" level="m">Le metamorfosi</title>
+							<imprint>
+    							<date notAfter="0008">8 d.C.</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+					
+					<biblStruct type="opera_teatrale" xml:id="monsieurAlphonse">
+						<monogr>
+        					<author ref="coverlessListPerson.xml#alexandreDumasFiglio">Alexandre Dumas figlio</author>
+        					<title type="main" level="m">Monsieur Alphonse</title>
+        					<imprint>
+            					<date when="1873">1873</date>
+        					</imprint>
+    					</monogr>
+					</biblStruct>
+					
+				</listBibl>
+			
+			</div>
+		</back>
+	</text>
+</TEI>

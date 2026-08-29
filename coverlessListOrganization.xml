@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					Lista di entità nominate per i testi codificati per il progetto dell'esame di "Codifica dei testi": gli enti e le istituzioni
+				</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+				<respStmt>
+					<resp>Progetto d'esame a cura di</resp>
+					<name ref="#FD">Francesca D'Apolito</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+				<idno type="filename">coverlessListOrganization.xml</idno> 
+			</publicationStmt>
+			<sourceDesc>
+				
+				<listOrg xml:id="listorg">
+
+					<org type="journal" xml:id="Farfalla">
+    					<orgName>La Farfalla</orgName>
+						<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+    					<desc>Rivista fondata a <placeName ref="coverlessListPlace.xml#CA">Cagliari</placeName> nel <date when="1876">1876</date>. Nel <date when="1877">1877</date> la sede della rivista fu trasferita a <placeName ref="coverlessListPlace.xml#MI">Milano</placeName>.</desc>
+					</org>
+
+					<org type="publisher" xml:id="casaEditriceBignami">
+						<orgName>Casa Editrice C. Bignami e C.</orgName>
+						<placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+						<desc>Casa editrice con sede a <placeName ref="coverlessListPlace.xml#MI">Milano</placeName>.</desc>
+					</org>
+
+				</listOrg>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>This is a template for a minimal TEI header with the mandatory components</p>
+		</body>
+	</text>
+</TEI>

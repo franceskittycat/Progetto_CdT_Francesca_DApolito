@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+        		<title>Nana</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name xml:id="FD">Francesca D'Apolito</name>
+				</respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">Digital edition - <date when="2026-08">Agosto 2026</date></edition>
+                <respStmt>
+                    <resp>Progetto d'esame a cura di</resp>
+                    <name ref="#FD">Francesca D'Apolito</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Università di Pisa</authority> 
+				<date when="2026">2026</date>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+				</availability>
+                <idno type="filename">Farfalla_1879_V_16_Nana.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Nana</title>
+                        <author ref="coverlessListPerson.xml#psicheAutore">Psiche</author> 
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <publisher ref="coverlessListOrganization.xml#casaEditriceBignami">Casa Editrice C. Bignami e C.</publisher> 
+                            <pubPlace ref="coverlessListPlace.xml#MI">Milano</pubPlace>
+                            <date when="1879">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">X</biblScope>
+                        <biblScope unit="issue">16</biblScope>
+                        <biblScope unit="page">181-183</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Codifica dell'articolo "Nana" tratto dalla rivista "La Farfalla". La codifica è stata realizzata per il progetto d'esame di "Codifica di testi", basata sul modello del progetto COVerLeSS.</p>
+            </projectDesc>
+            <editorialDecl>
+                <segmentation>
+                    <p>Si è scelto di codificare il testo mantenendo la corrispondenza esatta delle righe dell'edizione a stampa attraverso il tag <tag>lb</tag>.</p>
+                </segmentation>
+                <hyphenation>
+                    <p>Si è scelto di mantenere la sillabazione delle parole per il ritorno a capo. I ritorni a capo che spezzano una parola sono stati marcati con l'attributo break="no" (per indicare l'unità logica della parola) e rend="-" (per documentare la presenza del trattino tipografico a stampa).</p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è scelto di mantenere la spaziatura originale.</p>
+                </normalization>
+                <interpretation>
+                    <p>Si è scelto di creare una tassonomia in <tag>textClass</tag> con i principali temi
+                    del Verismo riconosciuti nei testi codificati. All'interno del testo, sono state
+                    marcate parole e frasi esemplificative di questi temi, ricondotte alle categorie
+                    corrispondenti attraverso l'uso del tag <tag>ref</tag>.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="testo_in_prosa">Articolo in rivista</term>
+                </keywords>
+                <keywords scheme="#themesTaxonomy">
+                    <term type="themes" ref="coverlessTassonomia.xml#degradoMorale">Degrado morale</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#maternita">Maternità</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <placeName ref="coverlessListPlace.xml#MI">Milano</placeName>
+                <date when="1879-10-19">19 ottobre 1879</date>
+            </creation>
+            <abstract>
+                <p>Il testo, intitolato "Nana" e firmato "Psiche", presenta una sintesi ed un commento critico al romanzo "Nanà" di Émile Zola. L'autore analizza il personaggio della protagonista dell'opera, appunto Nanà, ripercorrendo la sua storia sin dalla sua infanzia vissuta nei bassifondi e nel degrado morale, raccontata nel romanzo "L'Assommoir". L'autore racconta del suo tentativo di riscatto, quando recita al Théâtre des Variétés di Parigi, e delle storie con i suoi amanti finite in tragedia. Infine, narra della nascita e della morte prematura per vaiuolo del figlio Louiset, così come la morte di Nanà, che si ammala anch'essa nel tentativo eroico di assistere il figlio. Il testo elogia il romanzo come un'ammirabile prodotto del Naturalismo, evidenziando come la maternità sia in grado di divinizzare chiunque, perfino una prostituta.</p>
+            </abstract>
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+                <language ident="fr">Francese</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change status="draft" when="2026-08-13" resp="#FD">First draft 13 agosto 2026</change>
+            <change status="draft" when="2026-08-18" resp="#FD">Second draft 18 agosto 2026</change>
+            <change status="draft" when="2026-08-28" resp="#FD">Terzo draft 28 agosto 2026</change>
+            <change status="draft" when="2026-08-29" resp="#FD">Final draft 29 agosto 2026</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="pag_181" start="#Farfalla_1879_V_16_181">
+            <graphic url='Farfalla_1879_V_16_181.jpg' width='3335.66666px' height='5079.66666px' />
+            <zone xml:id="z_col_2-p.181" start="#col_2-p.181" ulx="1652" uly="3479" lrx="2980" lry="4715" />
+            <zone xml:id="z_head" start="#intestazione" ulx="1985" uly="3501" lrx="2635" lry="3685" />
+            <zone xml:id="z_d_1" start="#d_1" ulx="2199" uly="3705" lrx="2422" lry="3810" />
+            <zone xml:id="z_s_1_part1" start="#s_1" ulx="1662" uly="3824" lrx="2967" lry="4691" />
+        </surface>
+        <surface xml:id="pag_182" start="#Farfalla_1879_V_16_182">
+            <graphic url='Farfalla_1879_V_16_182.jpg' width='3306.66666px' height='5117.66666px' />
+            <zone xml:id="z_col_1_p.182" start="#col_1-p.182" ulx="500" uly="421" lrx="1794" lry="4640" />
+            <zone xml:id="z_col_2_p.182" start="#col_2-p.182" ulx="1830" uly="416" lrx="3137" lry="4675" />
+            <zone xml:id="z_s_1_part2" start="#s_1" ulx="502" uly="445" lrx="1792" lry="1068" />
+            <zone xml:id="z_d_2" start="#d_2" ulx="917" uly="1120" lrx="1432" lry="1641" />
+            <zone xml:id="z_s_2" start="#s_2" ulx="510" uly="1699" lrx="1787" lry="3339" />
+            <zone xml:id="z_d_3" start="#d_3" ulx="957" uly="3387" lrx="1385" lry="3877" />
+            <zone xml:id="z_s_3_part1" start="#s_3" ulx="510" uly="3958" lrx="1789" lry="4634" />
+            <zone xml:id="z_s_3_part2" start="#s_3" ulx="1829" uly="420" lrx="3131" lry="1197" />
+            <zone xml:id="z_d_4" start="#d_4" ulx="2094" uly="1262" lrx="2832" lry="1736" />
+            <zone xml:id="z_s_4" start="#s_4" ulx="1829" uly="1817" lrx="3132" lry="3301" />
+            <zone xml:id="z_d_5" start="#d_5" ulx="2231" uly="3348" lrx="2674" lry="3896" />
+            <zone xml:id="z_s_5_part1" start="#s_5" ulx="1834" uly="3958" lrx="3132" lry="4653" />
+        </surface>
+        <surface xml:id="pag_183" start="#Farfalla_1879_V_16_183">
+            <graphic url='Farfalla_1879_V_16_183.jpg' width='3340.66666px' height='5096.66666px' />
+            <zone xml:id="z_col_1_p.183" start="#col_1-p.183" ulx="372" uly="430" lrx="1740" lry="4735" />
+            <zone xml:id="z_col2_p.183" start="#col_2-p.183" ulx="1769" uly="426" lrx="3322" lry="4754" />
+            <zone xml:id="z_s_5_part2" start="#s_5" ulx="412" uly="451" lrx="1739" lry="1364" />
+            <zone xml:id="z_d_6" start="#d_6" ulx="764" uly="1427" lrx="1484" lry="1870" />
+            <zone xml:id="z_s_6" start="#s_6" ulx="402" uly="1926" lrx="1732" lry="3513" />
+            <zone xml:id="z_d_7" start="#d_7" ulx="845" uly="3559" lrx="1257" lry="4079" />
+            <zone xml:id="z_s_7_part1" start="#s_7" ulx="387" uly="4110" lrx="1709" lry="4705" />
+            <zone xml:id="z_s_7_part2" start="#s_7" ulx="1779" uly="460" lrx="3057" lry="999" />
+            <zone xml:id="z_d_8" start="#d_8" ulx="2290" uly="1059" lrx="2595" lry="1289" />
+            <zone xml:id="z_s_8" start="#s_8" ulx="1775" uly="1306" lrx="3049" lry="3514" />
+            <zone xml:id="z_d_9" start="#d_9" ulx="2195" uly="3559" lrx="2574" lry="3824" />
+            <zone xml:id="z_s_9" start="#s_9" ulx="1765" uly="3870" lrx="3064" lry="4386" />
+            <zone xml:id="z_closer" start="#closer" ulx="2474" uly="4391" lrx="3064" lry="4691" />
+        </surface>
+    </facsimile>
+    <text type="testo_in_prosa">
+        <body>
+            <pb n="1" xml:id="Farfalla_1879_V_16_181" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_16_181.png/full/max/0/default.jpg"/>
+            <cb n="1" xml:id="col_2-p.181" facs="#z_col_2-p.181"/>
+            <div type="intestazione" xml:id="intestazione" facs="#z_head">
+                <head type="main" rend="bold uppercase">NANA</head>
+            </div>
+            <metamark function="sectionDivider" xml:id="d_1" facs="#z_d_1">
+                <figure>
+                    <figDesc>Linea con due pallini al suo centro.</figDesc>
+                </figure>
+            </metamark>
+            <div type="text">
+                <div type="section" n="1" xml:id="s_1" facs="#z_s_1_part1 #z_s_1_part2">  
+                    <p xml:id="p_1" rend="first-line-indented"><lb n="1"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana"><hi rend="dropcap">L</hi>'</rs>avete conosciuta nell'<title ref="coverlessListWork.xml#assommoir" rend="italic">Assommoir</title> - 
+                    <lb n="2"/>prima bambina ai tempi allegri di suo
+                    <lb n="3"/>padre <persName type="fictional" ref="coverlessListPerson.xml#charlesCoupeau">Coupeau</persName> e di sua madre <persName type="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">Ger<lb n="4" break="no" rend="-"/>vasia</persName>. 
+                    Poi adolescente viziata, quando
+                    <lb n="5"/>i suoi <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#charlesCoupeau coverlessListPerson.xml#gervaiseMacquart">genitori</rs> cominciavano a venire
+                    <lb n="6"/>al meno. Poi fanciulla perduta attra<lb n="7" break="no" rend="-"/>verso i festini di <placeName type="real" ref="coverlessListPlace.xml#parigi">Parigi</placeName> in orgia, quando i suoi pa<lb n="8" break="no" rend="-"/>renti non ebbero più nè un tozzo per <distinct type="arcaico">isfamarla</distinct>, nè
+                    <lb n="9"/>un letto per riposarvela.</p>
+                    <p xml:id="p_2" rend="first-line-indented"><lb n="10"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">L</rs>'avete conosciuta, quando spalancati i suoi
+                    <lb n="11"/>grandi occhi di <term ref="coverlessTassonomia.xml#degradoSociale">prostituta in potenza</term>, vide attra-
+                    <lb n="12"/>verso l'uscio a vetri la <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">madre</rs> sua che seminuda,
+                    <pb n="2" xml:id="Farfalla_1879_V_16_182" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_16_182.png/full/max/0/default.jpg"/>
+                    <cb n="2" xml:id="col_1-p.182" facs="#z_col_1-p.182"/>
+                    <lb n="13"/>dal talamo coniugale passava, in punta di piedi,
+                    <lb n="14"/>nel letto dell'infame <persName type="fictional" ref="coverlessListPerson.xml#augusteLantier">Lantier</persName>.</p>
+                    <p xml:id="p_3" rend="first-line-indented"><lb n="15"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">L</rs>'avete conosciuta, fremendo, quando l'udiste
+                    <lb n="16"/>dire alla <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">madre</rs> che le rimproverava la nefanda sua
+                    <lb n="17"/>vita:</p>
+                    <p xml:id="p_4" rend="first-line-indented"><lb n="18"/><q>- <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">Madre</rs>, il sermone tienlo per <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">te</rs>. <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Io</rs> non ne
+                    <lb n="19"/>ho bisogno. Faccio quel che mi pare come l'hai
+                    <lb n="20"/>fatto <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#gervaiseMacquart">tu</rs>. Ah credi ch'<rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">io</rs> non t'abbia veduta, in una
+                    <lb n="21"/>certa notte, recarti in camicia presso di <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#augusteLantier">lui</rs>....</q></p> 
+                </div>
+                <metamark function="sectionDivider" xml:id="d_2" facs="#z_d_2">
+                    <figure>
+                        <figDesc>Un'illustrazione di un uomo vestito in abito elegante che tiene la mano sinistra dietro la schiena.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="2" xml:id="s_2" facs="#z_s_2">
+                    <p xml:id="p_5" rend="first-line-indented"><lb n="22"/>Ebbene, voi la vedrete prestissimo ancora.</p>
+                    <p xml:id="p_6" rend="first-line-indented"><lb n="23"/>Siamo ad una <foreign xml:lang="fr" rend="italic">prémiére</foreign> della <placeName type="real" ref="coverlessListPlace.xml#Theatre_des_Varietes" rend="italic">Varietés</placeName>. <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>
+                    <lb n="24"/>vi è lanciata al pubblico in grazia alla squisita opu<lb n="25" break="no" rend="-"/>lenza delle sue forme scultorie. Discesa dal palco<lb n="26" break="no" rend="-"/>scenico - che le ha fatta in tre ore d'esposizione
+                    <lb n="27"/>una celebrità - eccola percorrere tutti gli stadii 
+                    <lb n="28"/>della vita di donna galante. Uscita dalla <term type="verbum" subtype="evoluzione_sociale">miseria
+                    <lb n="29"/>del sobborgo</term>, questa creatura viziosa si vendica
+                    <lb n="30"/>terribilmente dell'abbandono in cui fu lasciata e
+                    <lb n="31"/>porta la rovina e la sventura in quella società che
+                    <lb n="32"/>ha dimenticati i suoi doveri.</p>
+                    <p xml:id="p_7" rend="first-line-indented"><lb n="33"/>Fa il male senza partito preso, vive alla gior<lb n="34" break="no" rend="-"/>nata, mangia i milioni degli amanti e non ha mai 
+                    <lb n="35"/>cento lire a sua disposizione. Spende diecimila fran<lb n="36" break="no" rend="-"/>chi al mese nelle sue scuderie, ed il suo cocchiere
+                    <lb n="37"/>avanza il salario di tre mesi. Non pensa al domani
+                    <lb n="38"/>e diventa il centro dei fuochi d'istinto accesi nel
+                    <lb n="39"/>petto dell'alta gioventù parigina. Delle altre ragazze
+                    <lb n="40"/>le fanno corona: alcune per impadronirsi dell'a<lb n="41" break="no" rend="-"/>mante ch'ella rifiuta o lascia; altre perchè in<lb n="42" break="no" rend="-"/>namorate delle sue cene de' suoi pranzi: tutte
+                    <lb n="43"/>per godere il riflesso di nomea che emana dalla
+                    <lb n="44"/>sua persona: un dì appena <foreign xml:lang="fr" rend="italic">boulevardiére</foreign>, oggi <term ref="coverlessTassonomia.xml#degradoSociale"><foreign xml:lang="fr" rend="italic">co<lb n="45" break="no" rend="-"/>cotte</foreign></term> con pariglie del valore di cinquantamila lire.</p>
+                </div>
+                <metamark function="sectionDivider" facs="#z_d_3">
+                    <figure>
+                        <figDesc>Un'illustrazione di una donna e di un uomo vestiti in abiti possibilmente teatrali o da ballo. L'uomo tiene un fiore in mano.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="3" xml:id="s_3" facs="#z_s_3_part1 #z_s_3_part2">
+                    <p xml:id="p_8" rend="first-line-indented"><lb n="46"/>Un uomo di mondo - un <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#comteMuffat">ciambellano</rs>, marito
+                    <lb n="47"/>d'una <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#sabineDeBeuville">vezzosa signora</rs>, padre di adorabili bambini,
+                    <lb n="48"/>s'ubbriaca delle <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">sue</rs> spalle marmoree e del suo seno
+                    <lb n="49"/>irresistibile. Da quel momento <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#muffatDeBeuville">egli</rs> ha la sua con<lb n="50" break="no" rend="-"/>dizione fissa, il suo posto speciale frammezzo alla
+                    <lb n="51"/>falange degli adoratori di <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>: alcuni dei quali
+                    <lb n="52"/>si mangiano con lei le loro possessioni di <placeName type="real" ref="coverlessListPlace.xml#Normandia">Norman<lb n="53" break="no" rend="-"/>dia</placeName>, ed altri firmano dei turpi compromessi colla
+                    <lb n="54"/>propria coscienza, pur di soddisfare, foss'anche per
+                    <lb n="55"/>un'ora soltanto, all'<term type="forma_letteraria" subtype="ismi">eretismo</term> dei loro sensi.</p>
+                    <cb n="3" xml:id="col_2-p.182" facs="z_col_2-p.182"/>
+                    <p xml:id="p_9" rend="first-line-indented" facs="#z_p_9"><lb n="56"/>Ed ecco che il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#muffatDeBeuville">ciambellano</rs> va più in là di tutti
+                    <lb n="57"/>gli altri. Un dì per compiacere a <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>, <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#muffatDeBeuville">egli</rs> marita
+                    <lb n="58"/>sua <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#estelleMuffat">figlia</rs>, intemerata donzella, ad un antico e smesso 
+                    <lb n="59"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#paulDaguenet"><distinct type="arcaico">drudo</distinct></rs> di lei. Un altro, si rassegna a sdraiarsi so<lb n="60" break="no" rend="-"/>pra un sofà in casa dell'amica, mentre essa corre
+                    <lb n="61"/>la <distinct type="arcaico">gualdana</distinct> di nuovi amori, chiudendo la porta del
+                    <lb n="62"/>suo gabinetto in faccia a lui, colla scusa di una
+                    <lb n="63"/>estemporanea emicrania. Un altro ancora, <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#muffatDeBeuville">egli</rs> chiude
+                    <lb n="64"/>gli occhi sulle infedeltà della propria <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#sabineDeBeuville">moglie</rs> affin<lb n="65"/>chè questa, in corrispettivo, gli lasci godere in pace
+                    <lb n="66"/>le voluttà di <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>....</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_4" facs="#z_d_4">
+                    <figure>
+                        <figDesc>Un'illustrazione di una donna e di un uomo che tengono un telo.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="4" xml:id="s_4" facs="#z_s_4">
+                    <p xml:id="p_10" rend="first-line-indented"><lb n="67"/>E sfila intanto al largo il tetro esercito delle
+                    <lb n="68"/>comparse che fanno da sfondo nel tremendo - ma 
+                    <lb n="69"/>vero - quadro dell'<term ref="coverlessTassonomia.xml#degradoSociale">alta prostituzione parigina</term>. Dalle 
+                    <lb n="70"/>perdute eleganti, che chiamano lo <foreign xml:lang="fr" rend="italic">champagne</foreign> a
+                    <lb n="71"/>compiacente e liquido ministro dei loro misteri Isiaci
+                    <lb n="72"/>- ai bambini, ai giovanetti loro figli, che, scaroz<lb n="73" break="no" rend="-"/>zando al <placeName type="real" ref="coverlessListPlace.xml#Bosco_di_Boulogne">Bosco di Boulogne</placeName> nei ricchi equipaggi
+                    <lb n="74"/>delle loro madri, ricevono con sussiego e contrac<lb n="75" break="no" rend="-"/>cambiano i saluti diretti dagli amanti passati, pre<lb n="76" break="no" rend="-"/>senti e futuri, ad esse. Dagli amanti del cuore
+                    <lb n="77"/>che acconsentono a dividere colla <term ref="coverlessTassonomia.xml#degradoSociale"><foreign xml:lang="fr" rend="italic">grue</foreign></term> i proventi
+                    <lb n="78"/>ch'essa ritrae dagli amanti <foreign xml:lang="fr" rend="italic">attitrés</foreign> - alle artiste
+                    <lb n="79"/>mediocri, per le quali il teatro è lo scalino che le 
+                    <lb n="80"/>guida sulle alture di <placeName type="real" ref="coverlessListPlace.xml#rue_Henry_Monnier">via Bréda</placeName>: agli uomini, il cui
+                    <lb n="81"/>amore si noma interesse, onde il perpetuo gettito 
+                    <lb n="82"/>della propria coscienza: <placeName type="real" ref="coverlessListPlace.xml#Parigi">Parigi</placeName> che mangia sapien<lb n="83" break="no" rend="-"/>temente, <placeName type="real" ref="coverlessListPlace.xml#Parigi">Parigi</placeName> che dorme - tutto, tutto va tu-
+                    <lb n="84"/>multuando e turbinando notte e giorno, ad ogni 
+                    <lb n="85"/>ora, ad ogni minuto intorno a <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> che finisce - 
+                    <lb n="86"/>nuova <persName type="fictional" ref="coverlessListPerson.xml#margheritaGauthier">Gauthier</persName> - ad arrossire di sè sotto la sua
+                    <lb n="87"/><foreign xml:lang="fr" rend="italic">veloutine imperiale</foreign> e ad amare - amare colla si-
+                    <lb n="88"/>stole e colla diastole - un redivivo <persName type="fictional" ref="coverlessListPerson.xml#armandoDuval">Armando</persName>....</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_5" facs="#z_d_5">
+                    <figure>
+                        <figDesc>Un'illustrazione di una coppa ornata.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="5" xml:id="s_5" facs="#z_s_5_part1 #z_s_5_part2">
+                    <p xml:id="p_11" rend="first-line-indented"><lb n="89"/>Sono milleottocento anni dacchè <persName type="real" ref="coverlessListPerson.xml#ovidio">Publio Ovi<lb n="90" break="no" rend="-"/>dio Nasone</persName>
+                    è morto in esiglio al <placeName type="real" subtype="historical" ref="coverlessListPlace.xml#Mar_Nero">Ponto</placeName> - colpa 
+                    <lb n="91"/>que' tali suoi versi faventi all'incesto di <persName type="real" ref="coverlessListPerson.xml#giuliaMaggiore">Giulia</persName> e 
+                    <lb n="92"/>d'<persName type="real" ref="coverlessListPerson.xml#agrippaPostumo">Agrippa Postumo</persName>. - Ma anche senza di <rs type="person" subtype="real" ref="coverlessListPerson.xml#ovidio">lui</rs>, suc-
+                    <lb n="93"/>cedono le <rs type="work" ref="coverlessListWork.xml#metamorfosiOvidio">metamorfosi</rs>. Ed una delle più complete
+                    <lb n="94"/>è quella appunto di <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>. L'amor vero l'ha tra<lb n="95" break="no" rend="-"/>sformata. <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Lei</rs> ed il suo <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#georgesHugon"><q><foreign xml:lang="fr">« enfant »</foreign></q></rs> vanno a nascon<lb n="96" break="no" rend="-"/>dere le loro delizie in campagna: e là, sotto le 
+                    <lb n="97"/>piante, è una lunga ed appassionata eco di pasto<lb n="98" break="no" rend="-"/>rali e di egloghe di prima qualità.</p>
+                    <pb n="3" xml:id="Farfalla_1879_V_16_183" facs="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_0_10_16_183.png/full/max/0/default.jpg"/>
+                    <cb n="4" xml:id="col_1-p.183" facs="#z_col_1-p.183"/>
+                    <p xml:id="p_12" rend="first-line-indented"><lb n="99"/>Ma ahimè! l' <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#georgesHugon"><foreign xml:lang="fr" rend="italic">enfant</foreign></rs> è di <q>« buona famiglia »</q>
+                    <lb n="100"/>e per soprassello tiene un <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#philippeHugon">fratello</rs> il quale ha la
+                    <lb n="101"/>melanconia di farla da <persName type="fictional" ref="coverlessListPerson.xml#giorgioGermont">Germont</persName>. E' un <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#philippeHugon">capitano</rs> che
+                    <lb n="102"/>fa pochi complimenti e va a scoprire i due amanti
+                    <lb n="103"/>sotto un cespuglio di <foreign xml:lang="fr" rend="italic">lilas</foreign>, in una villa suburbana.
+                    <lb n="104"/>E' lì lì per fare una s<unclear reason="faded" resp="#FD" cert="high">c</unclear>ena; e strappare il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#georgesHugon">fratello</rs>
+                    <lb n="105"/>dall'impero della <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">sirena</rs>: ma questa lo brucia coi 
+                    <lb n="106"/>suoi occhi fiammeggianti: il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#philippeHugon">capitano</rs> si arrende poco
+                    <lb n="107"/> dopo tra le braccia di <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">lei</rs>: ed il <q>« cadetto »</q> testi<lb n="108" break="no" rend="-"/>mone non visto di quella strana capitolazione, ca<lb n="109" break="no" rend="-"/>pisce che a questo mondo egli c'è di più, e in un 
+                    <lb n="110"/>batter d'occhi s'accoppa sotto gli occhi della <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">cor<lb n="111" break="no" rend="-"/>tigiana</rs>....</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_6" facs="#z_d_6">
+                    <figure>
+                        <figDesc>Un'illustrazione di uno strumento musicale.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="6" xml:id="s_6" facs="#z_s_6">
+                    <p xml:id="p_13" rend="first-line-indented"><lb n="112"/><persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> è colpita da questa catastrofe, per una
+                    <lb n="113"/>eternità di.... quindici giorni....</p>
+                    <p xml:id="p_14" rend="first-line-indented"><lb n="114"/>Ma passa un comico che la fa ridere. <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Essa</rs> non
+                    <lb n="115"/>è nata per la melanconia. Si lascia amare dal <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#fontan"><foreign xml:lang="fr" rend="italic">ca<lb n="116" break="no" rend="-"/>botin</foreign></rs>, dall'istirone che - pur di quando in quando
+                    <lb n="117"/>battendola - la fa però ridere.... ridere sempre.</p>
+                    <p xml:id="p_15" rend="first-line-indented"><lb n="118"/>E così ridendo <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">essa</rs> ridiscende giù, giù, nell'ima
+                    <lb n="119"/>belletta de' suoi primi anni. Va a pranzare per qua<lb n="120" break="no" rend="-"/>ranta soldi nei <foreign xml:lang="fr" rend="italic">restaurants</foreign> notturno dove i <rs type="work" ref="coverlessListWork.xml#monsieurAlphonse" rend="italic">Mon<lb n="121" break="no" rend="-"/>sieurs Alphonsens</rs> si fanno fare le spese dalle loro
+                    <lb n="122"/>belle.</p>
+                    <p xml:id="p_16" rend="first-line-indented"><lb n="123"/>Ma poco appresso, un colpo di scopa e il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#fontan"><foreign xml:lang="fr" rend="italic">ca<lb n="124" break="no" rend="-"/>botin</foreign></rs> scompare. <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> ritorna al teatro. Sapiente<lb n="125" break="no" rend="-"/>mente spogliata da <persName type="real" ref="coverlessListPerson.xml#alfredGrevin">Grevin</persName>, <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">essa</rs> esporrà al pubblico
+                    <lb n="126"/>le sue forme ammirabili bagnate dalla luce elettrica
+                    <lb n="127"/>in una fortunata <foreign xml:lang="fr" rend="italic">féer<unclear reason="faded" resp="#FD" cert="high">i</unclear>e</foreign>. Alla sua apparizione è un
+                    <lb n="128"/>delirio. Tutti vogliono pascersi delle nudità di quella
+                    <lb n="129"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">donna</rs> per cui tanti giovani sonosi ruinati ed uno
+                    <lb n="130"/>s'è ucciso. L'apoteosi della carne trae seco nella
+                    <lb n="131"/>sua nuvola d'oro la <foreign xml:lang="fr" rend="italic">grue</foreign>.</p>
+                    <p xml:id="p_17" rend="first-line-indented"><lb n="132"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Essa</rs> ridiventa la regina di <placeName type="real" ref="coverlessListPlace.xml#Parigi">Parigi</placeName> galante, che
+                    <lb n="133"/>pende sospesa da uno de' suoi sguardi, da uno dei
+                    <lb n="134"/>suoi sorrisi....</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_7" facs="#z_d_7">
+                    <figure>
+                        <figDesc>Un'illustrazione raffigurante due individui: uno è seduto e l'altro l'abbraccia, tenendo una mano sul patto e un braccio avvolto al suo collo.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="7" xml:id="s_7" facs="#z_s_7_part1 #z_s_7_part2">
+                    <p xml:id="p_18" rend="first-line-indented"><lb n="135"/>E la carica vertiginosa di <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> continua ser<lb n="136" break="no" rend="-"/>rata e furibonda, contro la pace delle famiglie, con<lb n="137" break="no" rend="-"/>tro i patrimonii, contro l'onore, contro gli affetti
+                    <lb n="138"/>più santi, contro tutti e contro tutto.</p>
+                    <p xml:id="p_19" rend="first-line-indented"><lb n="139"/>La ricchezza entra a <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">lei</rs> da tutte le porte ed
+                    <lb n="140"/>essa la fa saltare da tutte le finestre....</p>
+                    <p xml:id="p_20" rend="first-line-indented"><lb n="141"/>E giunge finalmente il giorno in cui <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> con<lb n="142" break="no" rend="-"/>stata due cose: che non ha più un soldo e che
+                    <cb n="5" xml:id="col_2-p.183" facs="#z_col_2-p.183"/>
+                    <lb n="143"/>sull'orizzonte della galanteria parigna monta ra<lb n="144" break="no" rend="-"/>diante una nuova stella.</p>
+                    <p xml:id="p_21" rend="first-line-indented"><lb n="145"/>Essa ne misura il fuoco, i raggi, la luce. E' di
+                    <lb n="146"/>prima grandezza. Dunque per <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">lei</rs> è finita.</p>
+                    <p xml:id="p_22" rend="first-line-indented"><lb n="147"/>Un terzo rinascimento sarebbe ridicolo. <placeName type="real" ref="coverlessListPlace.xml#Parigi">Parigi</placeName>
+                    <lb n="148"/>non vi crederebbe. Bisogna pertanto scomparire.....</p>
+                    <p xml:id="p_23" rend="first-line-indented"><lb n="149"/><persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> è scomparsa.</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_8" facs="#z_d_8">
+                <figure>
+                        <figDesc>Un'illustrazione di un paio di forbici.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="8" xml:id="s_8" facs="#z_s_8">
+                    <p xml:id="p_24" rend="first-line-indented"><lb n="150"/>E muore.</p>
+                    <p xml:id="p_25" rend="first-line-indented"><lb n="151"/>Ma su quella via d'obbrobbrii smisurati e di infa<lb n="152" break="no" rend="-"/>mie colossali, veleggiava ancora alto, perduto nei
+                    <lb n="153"/>cieli, un cirro del sentimento: quello della <term ref="coverlessTassonomia#maternita">mater<lb n="154" break="no" rend="-"/>nità</term>.</p>
+                    <p xml:id="p_26" rend="first-line-indented" facs="#z_p_26"><lb n="155"/><persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>, nei giorni fragorosi, aveva avuto - poco
+                    <lb n="156"/>importa da chi - un <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">figlio</rs>: ma i vagiti del <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">bimbo</rs>
+                    <lb n="157"/>non erano giunti a dominare il rumore che riem<lb n="158" break="no" rend="-"/>piva la casa e l'anima di lei. <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Essa</rs> non aveva il
+                    <lb n="159"/>tempo d'<term ref="coverlessTassonomia.xml#maternita">essere madre</term>. Il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">piccino</rs> fu dunque allon<lb n="160" break="no" rend="-"/>tanato come un terzo incomodo. E <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> non ci
+                    <lb n="161"/>pensò più fino a quando la miseria la riafferrò fra
+                    <lb n="162"/>le sue unghie d'acciaio.</p>
+                    <p xml:id="p_27" rend="first-line-indented" facs="#z_p_27"><lb n="163"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">Ne</rs> andò in traccia, lo rinvenne, se lo strinse
+                    <lb n="164"/>al petto e se lo portò con sè.</p>
+                    <p xml:id="p_28" rend="first-line-indented" facs="#z_p_28"><lb n="165"/>Strano a dirsi: <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">quel piccolo essere</rs> riempiva nel
+                    <lb n="166"/>suo cuore quel vuoto che centinaia d'uomini non
+                    <lb n="167"/>avevano saputo colmare....</p>
+                    <p xml:id="p_29" rend="first-line-indented" facs="#z_p_29"><lb n="168"/>Fu una gioia telegrafica....</p>
+                    <p xml:id="p_30" rend="first-line-indented" facs="#z_p_30"><lb n="169"/>Il <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset"><foreign xml:lang="fr" rend="italic">mioche</foreign></rs> ammalò di vaiuolo. S'aggravò a
+                    <lb n="170"/>morte. Tutti fuggirono spaventati da quella culla.
+                    <lb n="171"/>Una sola persona restò là imperterrita accanto al-
+                    <lb n="172"/>l'agonizzante: <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName>.</p>
+                    <p xml:id="p_31" rend="first-line-indented" facs="#z_p_31"><lb n="173"/><rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Essa</rs> gli terse fino gli ultimi sudori: essa coi
+                    <lb n="174"/>suoi baci disperati gli chiuse sulla bocca i lamenti
+                    <lb n="175"/>estremi. <rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">Essa</rs> fu semplice ed eroica. Essa s'inginoc<lb n="176" break="no" rend="-"/>chiò e domandò a Dio la grazie di non sopravvi<lb n="177" break="no" rend="-"/>vere al figlio suo - unico filo che la vincolava 
+                    <lb n="178"/>tuttavia alla terra....</p>
+                    <p xml:id="p_32" rend="first-line-indented" facs="#z_p_32"><lb n="179"/>E non gli sopravvisse. Il vaiuolo - comunica<lb n="180" break="no" rend="-"/>tole dal bimbo - l'uccise anch'<rs type="person" subtype="fictional" ref="coverlessListPerson.xml#nana">essa</rs> sul cadaverino
+                    <lb n="181"/>dell'<rs type="person" subtype="fictional" ref="coverlessListPerson.xml#louiset">infante</rs>....</p>
+                </div>
+                <metamark function="sectionDivider" xml:id="d_9" facs="#z_d_9">
+                <figure>
+                        <figDesc>Un'illustrazione di un asino che beve dell'acqua da una contenitore.</figDesc>
+                    </figure>
+                </metamark>
+                <div type="section" n="9" xml:id="s_9" facs="#z_s_9">
+                    <p xml:id="p_33" rend="first-line-indented"><lb n="182"/>Questa o lettori - al galoppo - la <persName type="fictional" ref="coverlessListPerson.xml#nana" rend="italic">Nana</persName> di
+                    <lb n="183"/><persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> - che continua e finisce l'<title ref="coverlessListWork.xml#assommoir" rend="italic">Assommoir</title>. Uno
+                    <lb n="184"/>studio di <term type="forma_letteraria" subtype="ismi">naturalismo</term> che si annuncia ammirabile,
+                    <lb n="185"/>con una chiusa che ha del miracoloso: una chiusa
+                    <lb n="186"/>in cui si prova che la <term ref="coverlessTassonomia.xml#maternita">maternità</term> divinizza tutto:
+                    <lb n="187"/>perfino la prostituta.....</p>
+                    <p xml:id="p_34" rend="first-line-indented"><lb n="188"/>O letteratura <term type="forma_letteraria" subtype="ismi">verista</term> - tu sola esisti!</p>
+                </div>
+            </div>
+            <div type="closer" xml:id="closer" facs="#z_closer">
+                <signed> 
+                    <persName type="real" ref="coverlessListPerson.xml#psicheAutore" rend="handwritten">Psiche</persName>
+                </signed>
+            </div>
+        </body>
+    </text>
+</TEI>
